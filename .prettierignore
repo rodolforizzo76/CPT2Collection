@@ -1,0 +1,18 @@
+# Allow only the reviewed paths, including when formatting from an editor.
+*
+!tests/
+/tests/*
+!/tests/*.js
+!/tests/support/
+/tests/support/*
+!/tests/support/italian-native-ui.js
+!tools/
+/tools/*
+!/tools/composer.json
+!/tools/wordpress-script-map.json
+!/composer.json
+!/assets/
+/assets/*
+!/assets/css/
+/assets/css/*
+!/assets/css/order-detail.css

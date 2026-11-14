@@ -1,0 +1,2346 @@
+# Copyright (C) 2026 Rodolfo Rizzo
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CPT2Collection 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cpt2collection\n"
+"POT-Creation-Date: 2026-11-12 00:00+0000\n"
+"PO-Revision-Date: 2026-11-12 00:00+0000\n"
+"Last-Translator: CPT2Collection contributors\n"
+"Language: it_IT\n"
+"Language-Team: Italiano\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: cpt2collection\n"
+
+#. Plugin Name of the plugin
+#: cpt2collection.php
+#: includes/admin/class-meta-box.php:55
+#: includes/admin/class-orders-page.php:22
+msgid "CPT2Collection"
+msgstr "CPT2Collection"
+
+#. Plugin URI of the plugin
+#: cpt2collection.php
+msgid "https://github.com/rodolforizzo76/CPT2Collection"
+msgstr "https://github.com/rodolforizzo76/CPT2Collection"
+
+#. Description of the plugin
+#: cpt2collection.php
+msgid "Adds collection-management and commercial metadata to one administrator-selected custom post type."
+msgstr ""
+"Aggiunge funzioni di gestione della collezione e dati commerciali a un tipo di contenuto "
+"personalizzato scelto dall’amministratore."
+
+#. Author of the plugin
+#: cpt2collection.php
+msgid "Rodolfo Rizzo"
+msgstr "Rodolfo Rizzo"
+
+#: includes/admin/class-commerce-reset-page.php:18
+#: includes/admin/class-commerce-reset-page.php:40
+msgid "Full Commerce Reset"
+msgstr "Azzeramento completo del commercio"
+
+#: includes/admin/class-commerce-reset-page.php:41
+msgid "Operational commerce records will be permanently removed. Commerce will pause until verified completion."
+msgstr ""
+"I dati operativi del commercio verranno eliminati definitivamente. Le attività di vendita saranno"
+" sospese fino alla verifica del completamento."
+
+#: includes/admin/class-commerce-reset-page.php:41
+msgid "Products, settings and physical stock are preserved. External payments are not refunded or cancelled."
+msgstr ""
+"I prodotti, le impostazioni e le giacenze fisiche vengono conservati. I pagamenti esterni non "
+"vengono rimborsati né annullati."
+
+#: includes/admin/class-commerce-reset-page.php:41
+msgid "Closing this page pauses progression. Keep the recovery URL to check status and continue later."
+msgstr ""
+"La chiusura di questa pagina mette in pausa l’operazione. Conserva l’URL di ripresa per "
+"controllare lo stato e continuare in seguito."
+
+#: includes/admin/class-commerce-reset-page.php:44
+#: assets/js/commerce-reset-admin.js:27
+msgid "A ready commerce context could not be verified. Look up an existing operation in Advanced details."
+msgstr ""
+"Non è stato possibile verificare che il commercio sia pronto. Cerca un’operazione esistente in "
+"Dettagli avanzati."
+
+#: includes/admin/class-commerce-reset-page.php:47
+msgid "Type the exact confirmation"
+msgstr "Digita la conferma esatta"
+
+#: includes/admin/class-commerce-reset-page.php:48
+#: assets/js/commerce-reset-admin.js:53
+msgid "Start reset"
+msgstr "Avvia l’azzeramento"
+
+#: includes/admin/class-commerce-reset-page.php:49
+msgid "Full Commerce Reset progress"
+msgstr "Avanzamento dell’azzeramento completo del commercio"
+
+#: includes/admin/class-commerce-reset-page.php:50
+msgid "Pause after current step"
+msgstr "Metti in pausa dopo il passaggio corrente"
+
+#: includes/admin/class-commerce-reset-page.php:50
+msgid "Continue reset"
+msgstr "Continua l’azzeramento"
+
+#: includes/admin/class-commerce-reset-page.php:50
+#: includes/admin/class-order-detail-page.php:33
+msgid "Back to Orders"
+msgstr "Torna agli ordini"
+
+#: includes/admin/class-commerce-reset-page.php:51
+msgid "Recovery URL"
+msgstr "URL di ripresa"
+
+#: includes/admin/class-commerce-reset-page.php:52
+msgid "Advanced details"
+msgstr "Dettagli avanzati"
+
+#: includes/admin/class-commerce-reset-page.php:54
+msgid "Operation identity"
+msgstr "Identificativo dell’operazione"
+
+#: includes/admin/class-commerce-reset-page.php:54
+msgid "Source epoch identity"
+msgstr "Identificativo dell’epoca di origine"
+
+#: includes/admin/class-commerce-reset-page.php:54
+msgid "Current phase"
+msgstr "Fase corrente"
+
+#: includes/admin/class-commerce-reset-page.php:54
+msgid "Revision"
+msgstr "Revisione"
+
+#: includes/admin/class-commerce-reset-page.php:54
+msgid "Checkpoint"
+msgstr "Punto di controllo"
+
+#: includes/admin/class-commerce-reset-page.php:54
+msgid "Cursor"
+msgstr "Cursore"
+
+#: includes/admin/class-commerce-reset-page.php:54
+msgid "Last confirmed diagnostic status"
+msgstr "Ultimo stato diagnostico confermato"
+
+#: includes/admin/class-commerce-reset-page.php:58
+msgid "Exact operation identity (32 lowercase hexadecimal characters)"
+msgstr "Identificativo esatto dell’operazione (32 caratteri esadecimali minuscoli)"
+
+#: includes/admin/class-commerce-reset-page.php:58
+#: includes/frontend/class-post-checkout-shortcodes.php:26
+#: assets/js/post-checkout.js:22
+msgid "Check status"
+msgstr "Controlla lo stato"
+
+#: includes/admin/class-commerce-reset-page.php:59
+msgid "Enable JavaScript to use Full Commerce Reset."
+msgstr "Abilita JavaScript per usare l’azzeramento completo del commercio."
+
+#: includes/admin/class-list-table.php:55
+#: includes/admin/class-meta-box.php:71
+#: includes/class-prices.php:46
+#: assets/js/cart-frontend.js:27
+msgid "Price"
+msgstr "Prezzo"
+
+#: includes/admin/class-list-table.php:56
+msgid "Status"
+msgstr "Stato"
+
+#: includes/admin/class-list-table.php:57
+#: includes/admin/class-meta-box.php:83
+#: includes/admin/class-stock-quick-edit.php:29
+msgid "Stock"
+msgstr "Giacenza"
+
+#: includes/admin/class-list-table.php:58
+msgid "Min. exempt"
+msgstr "Esente dal minimo"
+
+#: includes/admin/class-list-table.php:59
+#: includes/admin/class-meta-box.php:98
+msgid "Rating"
+msgstr "Valutazione"
+
+#: includes/admin/class-list-table.php:83
+msgid "Yes"
+msgstr "Sì"
+
+#. translators: %s: the displayed rating.
+#: includes/admin/class-list-table.php:90
+#, php-format
+msgid "%s / 5"
+msgstr "%s / 5"
+
+#: includes/admin/class-list-table.php:115
+msgid "Filter by commercial status"
+msgstr "Filtra per stato commerciale"
+
+#: includes/admin/class-list-table.php:117
+msgid "All commercial statuses"
+msgstr "Tutti gli stati commerciali"
+
+#: includes/admin/class-meta-box.php:72
+msgid "Example: 12.90"
+msgstr "Esempio: 12,90"
+
+#: includes/admin/class-meta-box.php:75
+msgid "Commercial status"
+msgstr "Stato commerciale"
+
+#: includes/admin/class-meta-box.php:86
+msgid "Units physically remaining, including units reserved for checkout. Use 0 for out of stock. Stock cannot be reduced below active reservations."
+msgstr ""
+"Unità fisicamente in giacenza, incluse quelle riservate per il pagamento. Usa 0 per indicare che "
+"l’articolo è esaurito. La giacenza non può essere inferiore alle unità già riservate."
+
+#: includes/admin/class-meta-box.php:94
+msgid "Can be purchased without reaching the minimum order quantity"
+msgstr "Acquistabile senza raggiungere la quantità minima d’ordine"
+
+#: includes/admin/class-meta-box.php:100
+msgid "No rating"
+msgstr "Nessuna valutazione"
+
+#. translators: %s: the displayed rating.
+#: includes/admin/class-meta-box.php:102
+#, php-format
+msgid "%s out of 5"
+msgstr "%s su 5"
+
+#: includes/admin/class-meta-box.php:167
+msgid "The item could not be marked as Available because a valid price greater than zero and a stock quantity greater than zero are required."
+msgstr ""
+"Impossibile contrassegnare l’articolo come disponibile. Il prezzo e la giacenza devono essere "
+"validi e maggiori di zero."
+
+#: includes/admin/class-meta-box.php:169
+msgid "The item could not be marked as Available because a valid price greater than zero is required."
+msgstr ""
+"Impossibile contrassegnare l’articolo come disponibile. È necessario un prezzo valido maggiore di"
+" zero."
+
+#: includes/admin/class-meta-box.php:171
+msgid "The item could not be marked as Available because the stock quantity must be greater than zero."
+msgstr "Impossibile contrassegnare l’articolo come disponibile. La giacenza deve essere maggiore di zero."
+
+#: includes/admin/class-meta-box.php:214
+msgid "The other CPT2Collection fields were not saved. WordPress may have saved the title or content."
+msgstr ""
+"Gli altri campi di CPT2Collection non sono stati salvati. WordPress potrebbe aver salvato il "
+"titolo o il contenuto."
+
+#: includes/admin/class-meta-box.php:219
+msgid "Stock was not saved because it changed since this form was opened. Reload the editor and review the current quantity before editing again."
+msgstr ""
+"La giacenza non è stata salvata perché è cambiata dopo l’apertura del modulo. Ricarica l’editor e"
+" controlla la quantità attuale prima di modificarla di nuovo."
+
+#: includes/admin/class-meta-box.php:220
+#: includes/admin/class-stock-quick-edit.php:67
+msgid "Stock was not saved because the quantity is below the units currently reserved for checkout."
+msgstr ""
+"La giacenza non è stata salvata perché la quantità è inferiore alle unità attualmente riservate "
+"per il pagamento."
+
+#: includes/admin/class-meta-box.php:221
+msgid "Stock was not saved. Enter a whole number of zero or more within the supported range. If the form is old, reload it before trying again."
+msgstr ""
+"La giacenza non è stata salvata. Inserisci un numero intero non negativo nell’intervallo "
+"consentito. Se il modulo non è aggiornato, ricaricalo prima di riprovare."
+
+#: includes/admin/class-meta-box.php:222
+msgid "Stock data is missing or invalid and needs technical review. The editor cannot repair it automatically."
+msgstr ""
+"I dati di giacenza sono mancanti o non validi e richiedono una verifica tecnica. L’editor non può"
+" correggerli automaticamente."
+
+#: includes/admin/class-meta-box.php:223
+msgid "The stock save could not be confirmed. Do not resubmit the old form. Reload and verify the current stock before making another change."
+msgstr ""
+"Non è stato possibile confermare il salvataggio della giacenza. Non inviare di nuovo il vecchio "
+"modulo. Ricarica la pagina e verifica la giacenza attuale prima di apportare altre modifiche."
+
+#: includes/admin/class-meta-box.php:224
+msgid "Stock was not saved because another operation was in progress. Reload and review the current stock before trying again."
+msgstr ""
+"La giacenza non è stata salvata perché era in corso un’altra operazione. Ricarica la pagina e "
+"controlla la giacenza attuale prima di riprovare."
+
+#: includes/admin/class-meta-box.php:225
+msgid "Stock could not be saved or checked. Reload the editor and try again. If the problem continues, contact the site administrator."
+msgstr ""
+"Non è stato possibile salvare o verificare la giacenza. Ricarica l’editor e riprova. Se il "
+"problema persiste, contatta l’amministratore del sito."
+
+#. translators: %s: order reference such as C2C-123.
+#: includes/admin/class-order-detail-page.php:32
+#, php-format
+msgid "Order %s"
+msgstr "Ordine %s"
+
+#. translators: %s: order reference such as C2C-123.
+#: includes/admin/class-order-detail-page.php:32
+msgid "Order detail"
+msgstr "Dettaglio ordine"
+
+#: includes/admin/class-order-detail-page.php:36
+msgid "Invalid order reference."
+msgstr "Riferimento dell’ordine non valido."
+
+#: includes/admin/class-order-detail-page.php:36
+#: assets/js/post-checkout.js:27
+msgid "Order details are temporarily unavailable. Please try again."
+msgstr "I dettagli dell’ordine sono temporaneamente indisponibili. Riprova."
+
+#: includes/admin/class-order-detail-page.php:36
+msgid "Order not found."
+msgstr "Ordine non trovato."
+
+#: includes/admin/class-order-detail-page.php:41
+msgid "This page shows information recorded by the system, without checking it with the payment provider in real time. Dates and times are in UTC."
+msgstr "I dati mostrati sono quelli registrati dal sistema e non vengono verificati in tempo reale con il fornitore di pagamento. Date e orari sono espressi in UTC."
+
+#: includes/admin/class-order-detail-page.php:43
+msgid "Payment confirmed. Cart reconciliation needs attention."
+msgstr "Pagamento confermato. L'aggiornamento del carrello richiede attenzione."
+
+#: includes/admin/class-order-detail-page.php:46
+#: assets/js/post-checkout.js:28
+msgid "Order summary"
+msgstr "Riepilogo dell’ordine"
+
+#. translators: 1: order reference label, 2: order reference such as C2C-123.
+#: includes/admin/class-order-detail-page.php:48
+#: includes/admin/class-orders-page.php:51
+#: includes/admin/class-orders-page.php:94
+#: includes/class-payment-notification-email.php:19
+#: assets/js/post-checkout.js:29
+msgid "Order reference"
+msgstr "Riferimento dell’ordine"
+
+#: includes/admin/class-order-detail-page.php:49
+#: includes/admin/class-orders-page.php:51
+#: includes/admin/class-orders-page.php:96
+#: includes/frontend/class-post-checkout-shortcodes.php:23
+msgid "Order status"
+msgstr "Stato dell’ordine"
+
+#: includes/admin/class-order-detail-page.php:49
+#: includes/admin/class-order-detail-page.php:52
+#: includes/admin/class-order-detail-page.php:114
+#: includes/admin/class-order-detail-page.php:162
+#: includes/admin/class-orders-page.php:56
+#: includes/admin/class-orders-page.php:122
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: includes/admin/class-order-detail-page.php:50
+#: includes/admin/class-order-detail-page.php:164
+#: includes/admin/class-orders-page.php:51
+msgid "Created (UTC)"
+msgstr "Creazione (UTC)"
+
+#: includes/admin/class-order-detail-page.php:51
+#: includes/admin/class-orders-page.php:51
+msgid "Paid (UTC)"
+msgstr "Pagamento (UTC)"
+
+#: includes/admin/class-order-detail-page.php:52
+msgid "Order currency"
+msgstr "Valuta dell’ordine"
+
+#: includes/admin/class-order-detail-page.php:53
+#: assets/js/cart-frontend.js:19
+#: assets/js/post-checkout.js:35
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: includes/admin/class-order-detail-page.php:54
+#: includes/admin/class-order-detail-page.php:66
+#: includes/admin/class-orders-page.php:51
+#: assets/js/post-checkout.js:36
+msgid "Total"
+msgstr "Totale"
+
+#: includes/admin/class-order-detail-page.php:56
+msgid "Customer"
+msgstr "Cliente"
+
+#: includes/admin/class-order-detail-page.php:58
+msgid "Customer name"
+msgstr "Nome del cliente"
+
+#: includes/admin/class-order-detail-page.php:58
+#: includes/admin/class-order-detail-page.php:59
+msgid "Not available"
+msgstr "Non disponibile"
+
+#: includes/admin/class-order-detail-page.php:59
+msgid "Customer email"
+msgstr "Email del cliente"
+
+#: includes/admin/class-order-detail-page.php:61
+msgid "Order items"
+msgstr "Articoli dell’ordine"
+
+#: includes/admin/class-order-detail-page.php:61
+msgid "Items and prices recorded for this purchase may differ from the current catalog."
+msgstr "Articoli e prezzi registrati al momento dell'acquisto, che potrebbero differire da quelli attualmente presenti nel catalogo."
+
+#: includes/admin/class-order-detail-page.php:63
+msgid "No saved item details are available for this order."
+msgstr "Per questo ordine non sono disponibili dettagli degli articoli registrati."
+
+#: includes/admin/class-order-detail-page.php:66
+#: includes/class-payment-notification-email.php:44
+#: assets/js/post-checkout.js:32
+msgid "Item"
+msgstr "Articolo"
+
+#: includes/admin/class-order-detail-page.php:66
+#: includes/class-payment-notification-email.php:45
+msgid "Qty"
+msgstr "Qtà"
+
+#: includes/admin/class-order-detail-page.php:66
+msgid "Unit price"
+msgstr "Prezzo unitario"
+
+#: includes/admin/class-order-detail-page.php:76
+msgid "Technical Payment Details"
+msgstr "Dettagli tecnici del pagamento"
+
+#: includes/admin/class-order-detail-page.php:77
+msgid "During processing, different sections may reflect updates saved at different times."
+msgstr "Durante l'elaborazione, le sezioni possono mostrare dati registrati in momenti diversi."
+
+#: includes/admin/class-order-detail-page.php:79
+msgid "Cart Reconciliation"
+msgstr "Aggiornamento del carrello"
+
+#: includes/admin/class-order-detail-page.php:80
+msgid "Cart updating is separate from payment confirmation. Completion does not mean the entire cart is empty."
+msgstr ""
+"L’aggiornamento del carrello è indipendente dalla conferma del pagamento. Il completamento "
+"dell’aggiornamento non implica che il carrello sia vuoto."
+
+#: includes/admin/class-order-detail-page.php:81
+msgid "Cart update status recorded (UTC)"
+msgstr "Registrazione dello stato di aggiornamento del carrello (UTC)"
+
+#: includes/admin/class-order-detail-page.php:103
+msgid "Permanent Deletion"
+msgstr "Eliminazione permanente"
+
+#: includes/admin/class-order-detail-page.php:106
+msgid "Inspect Order (read-only)"
+msgstr "Consulta l’ordine (sola lettura)"
+
+#: includes/admin/class-order-detail-page.php:110
+msgid "Deleting this order is permanent and cannot be undone. It does not issue refunds, change stock, or cancel any Stripe payments or sessions."
+msgstr "L'eliminazione dell'ordine è definitiva e non può essere annullata. Non comporta rimborsi, non modifica le giacenze e non annulla eventuali pagamenti o sessioni Stripe."
+
+#: includes/admin/class-order-detail-page.php:111
+msgid "Review Permanent Deletion"
+msgstr "Esamina l'eliminazione"
+
+#: includes/admin/class-order-detail-page.php:115
+msgid "Deletion is permanent. There is no Trash or Restore. Operational Order data and associated records are removed when the service permits deletion. Physical stock is not restored or modified, and cart data is retained."
+msgstr ""
+"L’eliminazione è definitiva. Non sono disponibili il cestino né il ripristino. I dati operativi "
+"dell’ordine e i record associati vengono rimossi quando il servizio consente l’eliminazione. La "
+"giacenza fisica non viene ripristinata né modificata e i dati del carrello vengono conservati."
+
+#: includes/admin/class-order-detail-page.php:116
+msgid "This does not refund payments or cancel external payment sessions. A provider payment may still complete after local deletion. Provider and deletion evidence is retained for integrity and historical safety. Displayed status does not establish deletion eligibility."
+msgstr ""
+"L’eliminazione non rimborsa i pagamenti né annulla le sessioni di pagamento esterne. Un pagamento"
+" presso il fornitore può ancora completarsi dopo l’eliminazione locale. Le evidenze del fornitore"
+" e dell’eliminazione vengono conservate per tutelare l’integrità e lo storico. Lo stato "
+"visualizzato non indica se l’eliminazione è consentita."
+
+#: includes/admin/class-order-detail-page.php:117
+msgid "Type this exact phrase, including case and spacing:"
+msgstr "Digita esattamente questa frase, rispettando maiuscole, minuscole e spazi:"
+
+#: includes/admin/class-order-detail-page.php:118
+msgid "Deletion confirmation"
+msgstr "Conferma dell’eliminazione"
+
+#: includes/admin/class-order-detail-page.php:119
+msgid "Permanently delete Order"
+msgstr "Elimina definitivamente l’ordine"
+
+#: includes/admin/class-order-detail-page.php:119
+msgid "Cancel"
+msgstr "Annulla"
+
+#: includes/admin/class-order-detail-page.php:120
+msgid "JavaScript is required for the confirmed deletion workflow."
+msgstr "Per confermare l’eliminazione è necessario JavaScript."
+
+#: includes/admin/class-order-detail-page.php:122
+msgid "Read-only inspection. Order absence does not prove that a deletion committed. Without positive deletion evidence, an earlier uncertain outcome remains unverified."
+msgstr ""
+"Consultazione in sola lettura. L’assenza dell’ordine non dimostra che l’eliminazione sia stata "
+"confermata. Senza una prova dell’eliminazione, un esito precedente incerto resta non verificato."
+
+#: includes/admin/class-order-detail-page.php:136
+#: includes/admin/class-orders-page.php:55
+#: assets/js/cart-frontend.js:22
+#: assets/js/cart-frontend.js:23
+msgid "Unavailable"
+msgstr "Non disponibile"
+
+#: includes/admin/class-order-detail-page.php:144
+#: includes/admin/class-orders-page.php:115
+msgid "Payment confirmed in order records"
+msgstr "Pagamento confermato nei dati dell’ordine"
+
+#: includes/admin/class-order-detail-page.php:145
+msgid "Needs review — no payment confirmation is recorded for this order."
+msgstr "Da verificare: per questo ordine non risulta alcuna conferma di pagamento."
+
+#: includes/admin/class-order-detail-page.php:145
+#: includes/admin/class-orders-page.php:117
+msgid "Awaiting confirmation"
+msgstr "In attesa di conferma"
+
+#: includes/admin/class-order-detail-page.php:146
+#: includes/admin/class-orders-page.php:118
+msgid "No payment confirmation recorded"
+msgstr "Nessuna conferma di pagamento registrata"
+
+#: includes/admin/class-order-detail-page.php:147
+msgid "Payment confirmation cannot be determined from the order records."
+msgstr "I dati dell’ordine non consentono di stabilire se il pagamento è stato confermato."
+
+#: includes/admin/class-order-detail-page.php:149
+msgid "Payment information"
+msgstr "Informazioni sul pagamento"
+
+#: includes/admin/class-order-detail-page.php:151
+msgid "Order payment confirmation"
+msgstr "Conferma del pagamento dell’ordine"
+
+#: includes/admin/class-order-detail-page.php:152
+#: includes/admin/class-order-detail-page.php:167
+msgid "Payment processing review"
+msgstr "Verifica dell’elaborazione del pagamento"
+
+#: includes/admin/class-order-detail-page.php:152
+#: includes/admin/class-order-detail-page.php:167
+#: includes/admin/class-orders-page.php:101
+#: includes/admin/class-orders-page.php:116
+msgid "Requires review"
+msgstr "Da verificare"
+
+#: includes/admin/class-order-detail-page.php:152
+#: includes/admin/class-order-detail-page.php:167
+msgid "No review requirement recorded"
+msgstr "Nessuna verifica richiesta nei dati registrati"
+
+#: includes/admin/class-order-detail-page.php:154
+msgid "Payment confirmation comes from the order record. A completed Checkout Session alone does not confirm payment. Attempts do not establish a decline, refund or absence of a charge. A session recorded as active may no longer be usable."
+msgstr "La conferma del pagamento si basa sui dati registrati per l'ordine. Una sessione di Checkout completata da sola non conferma il pagamento. I tentativi non dimostrano che un pagamento sia stato rifiutato o rimborsato, né che non ci sia stato un addebito. Una sessione registrata come attiva potrebbe non essere più utilizzabile."
+
+#: includes/admin/class-order-detail-page.php:155
+msgid "Payment attempts"
+msgstr "Tentativi di pagamento"
+
+#: includes/admin/class-order-detail-page.php:156
+msgid "No payment sessions recorded."
+msgstr "Nessuna sessione di pagamento registrata."
+
+#. translators: %d: sequential display number of the saved payment attempt.
+#: includes/admin/class-order-detail-page.php:160
+#, php-format
+msgid "Payment attempt %d"
+msgstr "Tentativo di pagamento %d"
+
+#: includes/admin/class-order-detail-page.php:162
+msgid "Recorded session status"
+msgstr "Stato della sessione registrato"
+
+#: includes/admin/class-order-detail-page.php:163
+msgid "Attempt amount"
+msgstr "Importo del tentativo"
+
+#: includes/admin/class-order-detail-page.php:165
+msgid "Updated (UTC)"
+msgstr "Aggiornamento (UTC)"
+
+#: includes/admin/class-order-detail-page.php:166
+msgid "Recorded expiry (UTC)"
+msgstr "Scadenza registrata (UTC)"
+
+#: includes/admin/class-order-detail-page.php:170
+msgid "Locally completed (UTC)"
+msgstr "Completamento locale (UTC)"
+
+#: includes/admin/class-order-detail-page.php:171
+msgid "Locally expired (UTC)"
+msgstr "Scadenza locale (UTC)"
+
+#: includes/admin/class-order-detail-page.php:172
+msgid "Locally cancelled (UTC)"
+msgstr "Annullamento locale (UTC)"
+
+#: includes/admin/class-order-detail-page.php:173
+msgid "Locally failed (UTC)"
+msgstr "Errore registrato localmente (UTC)"
+
+#: includes/admin/class-order-detail-page.php:174
+msgid "Payment evidence recorded (UTC)"
+msgstr "Registrazione dell’evidenza di pagamento (UTC)"
+
+#: includes/admin/class-order-detail-page.php:175
+msgid "Payment review flagged (UTC)"
+msgstr "Segnalazione per la verifica del pagamento (UTC)"
+
+#: includes/admin/class-order-detail-page.php:186
+msgid "The cart update needs review. Payment confirmation is unchanged."
+msgstr "L’aggiornamento del carrello richiede una verifica. La conferma del pagamento resta valida."
+
+#: includes/admin/class-order-detail-page.php:189
+msgid "The cart was updated to account for this purchase without discarding later changes."
+msgstr "Il carrello è stato aggiornato tenendo conto dell'acquisto, senza perdere eventuali modifiche successive."
+
+#: includes/admin/class-order-detail-page.php:190
+msgid "The cart update is marked complete, but its outcome is unclear and needs review."
+msgstr ""
+"L’aggiornamento del carrello risulta completato, ma il suo esito non è chiaro e richiede una "
+"verifica."
+
+#: includes/admin/class-order-detail-page.php:194
+msgid "The cart update is not yet confirmed. It may not have started, or processing may still be unresolved. No retry schedule is shown here."
+msgstr ""
+"L’aggiornamento del carrello non è ancora confermato. Potrebbe non essere iniziato oppure "
+"l’elaborazione potrebbe essere ancora in corso. Qui non è indicata alcuna pianificazione dei "
+"nuovi tentativi."
+
+#: includes/admin/class-order-detail-page.php:196
+msgid "The recorded cart update status is unclear and needs review."
+msgstr "Lo stato registrato dell’aggiornamento del carrello non è chiaro e richiede una verifica."
+
+#: includes/admin/class-orders-page.php:22
+#: includes/admin/class-orders-page.php:24
+msgid "CPT2Collection Orders"
+msgstr "Ordini CPT2Collection"
+
+#: includes/admin/class-orders-page.php:24
+#: includes/admin/class-orders-page.php:35
+msgid "Orders"
+msgstr "Ordini"
+
+#: includes/admin/class-orders-page.php:38
+msgid "Orders are temporarily unavailable. Please try again."
+msgstr "Gli ordini sono temporaneamente indisponibili. Riprova."
+
+#: includes/admin/class-orders-page.php:46
+msgid "Saved order information. An Active payment session may no longer be usable. A completed cart update does not mean the cart is empty."
+msgstr ""
+"Informazioni registrate per l’ordine. Una sessione di pagamento attiva potrebbe non essere più "
+"utilizzabile. Un aggiornamento completato non implica che il carrello sia vuoto."
+
+#: includes/admin/class-orders-page.php:48
+msgid "No orders found."
+msgstr "Nessun ordine trovato."
+
+#: includes/admin/class-orders-page.php:51
+msgid "Payment"
+msgstr "Pagamento"
+
+#: includes/admin/class-orders-page.php:51
+#: assets/js/post-checkout.js:17
+msgid "Cart update"
+msgstr "Aggiornamento del carrello"
+
+#. translators: 1: current page, 2: total pages, 3: total orders.
+#: includes/admin/class-orders-page.php:68
+#, php-format
+msgid "Page %1$d of %2$d — %3$d order"
+msgid_plural "Page %1$d of %2$d — %3$d orders"
+msgstr[0] "Pagina %1$d di %2$d — %3$d ordine"
+msgstr[1] "Pagina %1$d di %2$d — %3$d ordini"
+
+#: includes/admin/class-orders-page.php:70
+msgid "Previous"
+msgstr "Precedente"
+
+#: includes/admin/class-orders-page.php:70
+msgid "Next"
+msgstr "Successiva"
+
+#: includes/admin/class-orders-page.php:96
+msgid "All order statuses"
+msgstr "Tutti gli stati degli ordini"
+
+#: includes/admin/class-orders-page.php:97
+msgid "Created from"
+msgstr "Creato dal"
+
+#: includes/admin/class-orders-page.php:97
+msgid "Created to"
+msgstr "Creato al"
+
+#: includes/admin/class-orders-page.php:101
+msgid "Payment review"
+msgstr "Verifica del pagamento"
+
+#: includes/admin/class-orders-page.php:101
+msgid "All orders"
+msgstr "Tutti gli ordini"
+
+#: includes/admin/class-orders-page.php:102
+msgid "Filter"
+msgstr "Filtra"
+
+#: includes/admin/class-orders-page.php:103
+msgid "Clear filters"
+msgstr "Azzera i filtri"
+
+#: includes/admin/class-orders-page.php:104
+msgid "Dates use UTC and include the whole final day. Paid orders can also require payment review."
+msgstr ""
+"Le date sono in UTC e comprendono l’intera giornata finale. Anche gli ordini pagati possono "
+"richiedere una verifica del pagamento."
+
+#: includes/admin/class-orders-page.php:119
+msgid "Payment review required"
+msgstr "Verifica del pagamento richiesta"
+
+#. translators: 1: payment session status, 2: number of sessions with that status.
+#: includes/admin/class-orders-page.php:124
+#, php-format
+msgid "%1$s × %2$d"
+msgstr "%1$s × %2$d"
+
+#. translators: %s: list of payment session statuses with counts.
+#: includes/admin/class-orders-page.php:127
+#, php-format
+msgid "Payment attempts: %s"
+msgstr "Tentativi di pagamento: %s"
+
+#. translators: %s: list of payment session statuses with counts.
+#: includes/admin/class-orders-page.php:127
+msgid "No payment session recorded"
+msgstr "Nessuna sessione di pagamento registrata"
+
+#. translators: 1: payment confirmation state, 2: payment attempt summary.
+#: includes/admin/class-orders-page.php:129
+#, php-format
+msgid "%1$s; %2$s"
+msgstr "%1$s; %2$s"
+
+#: includes/admin/class-orders-page.php:133
+msgid "Needs attention"
+msgstr "Richiede attenzione"
+
+#: includes/admin/class-orders-page.php:136
+#: includes/class-payment-session-statuses.php:23
+#: assets/js/commerce-reset-admin.js:23
+msgid "Completed"
+msgstr "Completato"
+
+#: includes/admin/class-orders-page.php:137
+msgid "Unknown result — review required"
+msgstr "Esito sconosciuto: verifica richiesta"
+
+#: includes/admin/class-orders-page.php:140
+msgid "Cart update not yet confirmed"
+msgstr "Aggiornamento del carrello non ancora confermato"
+
+#: includes/admin/class-orders-page.php:140
+msgid "No cart update result recorded"
+msgstr "Nessun esito dell’aggiornamento del carrello registrato"
+
+#: includes/admin/class-orders-page.php:141
+msgid "Unknown — review required"
+msgstr "Sconosciuto: verifica richiesta"
+
+#: includes/admin/class-settings-page.php:34
+#: includes/admin/class-settings-page.php:88
+msgid "CPT2Collection Settings"
+msgstr "Impostazioni di CPT2Collection"
+
+#: includes/admin/class-settings-page.php:34
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/admin/class-settings-page.php:58
+msgid "Collection settings"
+msgstr "Impostazioni della collezione"
+
+#: includes/admin/class-settings-page.php:59
+msgid "Managed post type"
+msgstr "Tipo di contenuto gestito"
+
+#: includes/admin/class-settings-page.php:60
+msgid "Currency"
+msgstr "Valuta"
+
+#: includes/admin/class-settings-page.php:61
+#: assets/js/cart-frontend.js:30
+msgid "Minimum order quantity"
+msgstr "Quantità minima d’ordine"
+
+#: includes/admin/class-settings-page.php:62
+msgid "Cart page"
+msgstr "Pagina del carrello"
+
+#: includes/admin/class-settings-page.php:63
+msgid "Reservation duration"
+msgstr "Durata della riserva"
+
+#: includes/admin/class-settings-page.php:64
+msgid "Stripe Checkout"
+msgstr "Stripe Checkout"
+
+#: includes/admin/class-settings-page.php:65
+msgid "Environment"
+msgstr "Ambiente"
+
+#: includes/admin/class-settings-page.php:66
+msgid "Secret key"
+msgstr "Chiave segreta"
+
+#: includes/admin/class-settings-page.php:67
+msgid "Webhook signing secret"
+msgstr "Segreto di firma del webhook"
+
+#: includes/admin/class-settings-page.php:68
+msgid "Success URL"
+msgstr "URL di conferma"
+
+#: includes/admin/class-settings-page.php:69
+msgid "Cancel URL"
+msgstr "URL di annullamento"
+
+#: includes/admin/class-settings-page.php:103
+msgid "Select a custom post type"
+msgstr "Seleziona un tipo di contenuto personalizzato"
+
+#. translators: 1: post type display name, 2: post type slug.
+#: includes/admin/class-settings-page.php:107
+#, php-format
+msgctxt "post type selector option"
+msgid "%1$s — %2$s"
+msgstr "%1$s — %2$s"
+
+#: includes/admin/class-settings-page.php:111
+msgid "Choose one existing custom post type to manage with CPT2Collection."
+msgstr "Scegli un tipo di contenuto personalizzato esistente da gestire con CPT2Collection."
+
+#. translators: 1: currency code, 2: currency name.
+#: includes/admin/class-settings-page.php:122
+#, php-format
+msgctxt "currency selector option"
+msgid "%1$s — %2$s"
+msgstr "%1$s — %2$s"
+
+#: includes/admin/class-settings-page.php:133
+msgid "Minimum total item quantity required at checkout. Use 1 for no additional minimum."
+msgstr ""
+"Quantità totale minima di articoli necessaria per procedere al pagamento. Usa 1 per non imporre "
+"un minimo aggiuntivo."
+
+#: includes/admin/class-settings-page.php:141
+msgid "Select a page"
+msgstr "Seleziona una pagina"
+
+#. translators: Keep the shortcode [cpt2collection_cart] unchanged.
+#: includes/admin/class-settings-page.php:147
+msgid "Choose a page containing the [cpt2collection_cart] shortcode."
+msgstr "Scegli una pagina che contenga lo shortcode [cpt2collection_cart]."
+
+#: includes/admin/class-settings-page.php:151
+msgid "Minutes stock remains reserved. Stripe Checkout requires at least 30 minutes remaining; 35 minutes is recommended."
+msgstr ""
+"Minuti per cui le unità rimangono riservate. Stripe Checkout richiede almeno 30 minuti residui; "
+"se ne consigliano 35."
+
+#: includes/admin/class-settings-page.php:152
+msgid "Hosted, one-time, card-only Checkout. Creating a Session does not confirm payment."
+msgstr ""
+"Pagamento ospitato, una tantum e solo con carta. La creazione di una sessione non conferma il "
+"pagamento."
+
+#: includes/admin/class-settings-page.php:153
+msgid "Test"
+msgstr "Test"
+
+#: includes/admin/class-settings-page.php:153
+msgid "Live"
+msgstr "Produzione"
+
+#: includes/admin/class-settings-page.php:154
+msgid "Configured. Leave empty to keep the current secret."
+msgstr "Configurato. Lascia vuoto per mantenere il segreto attuale."
+
+#: includes/admin/class-settings-page.php:154
+msgid "Not configured. Enter an sk_test_ or sk_live_ secret key."
+msgstr "Non configurato. Inserisci una chiave segreta con prefisso sk_test_ o sk_live_."
+
+#: includes/admin/class-settings-page.php:155
+msgid "Configured. Leave empty to keep the current webhook secret."
+msgstr "Configurato. Lascia vuoto per mantenere il segreto del webhook attuale."
+
+#: includes/admin/class-settings-page.php:155
+msgid "Not configured. Enter the whsec_ signing secret for this environment."
+msgstr "Non configurato. Inserisci il segreto di firma whsec_ per questo ambiente."
+
+#: includes/admin/class-settings-page.php:156
+msgid "Absolute HTTPS URL. Stripe preserves and replaces the literal {CHECKOUT_SESSION_ID} placeholder."
+msgstr "URL HTTPS assoluto. Stripe conserva e sostituisce il segnaposto letterale {CHECKOUT_SESSION_ID}."
+
+#: includes/admin/class-settings-page.php:157
+msgid "Absolute HTTPS URL. A visit does not cancel local state."
+msgstr "URL HTTPS assoluto. Visitare la pagina non annulla lo stato locale."
+
+#: includes/admin/class-stock-quick-edit.php:32
+msgid "Includes units reserved for checkout. Stock cannot be reduced below active reservations."
+msgstr ""
+"Include le unità riservate per il pagamento. La giacenza non può essere inferiore alle unità già "
+"riservate."
+
+#: includes/admin/class-stock-quick-edit.php:42
+msgid "Unavailable — reload or request technical review"
+msgstr "Non disponibile: ricarica la pagina o richiedi una verifica tecnica"
+
+#: includes/admin/class-stock-quick-edit.php:66
+msgid "Stock was not saved because it changed after this list was loaded. Review the refreshed quantity before editing again."
+msgstr ""
+"La giacenza non è stata salvata perché è cambiata dopo il caricamento dell’elenco. Controlla la "
+"quantità aggiornata prima di modificarla di nuovo."
+
+#: includes/admin/class-stock-quick-edit.php:68
+msgid "Stock was not saved. Enter a whole number of zero or more within the supported range."
+msgstr ""
+"La giacenza non è stata salvata. Inserisci un numero intero non negativo nell’intervallo "
+"consentito."
+
+#: includes/admin/class-stock-quick-edit.php:69
+msgid "Stock data is missing or invalid and needs technical review. Quick Edit cannot repair it."
+msgstr ""
+"I dati di giacenza sono mancanti o non validi e richiedono una verifica tecnica. La modifica "
+"rapida non può correggerli."
+
+#: includes/admin/class-stock-quick-edit.php:70
+#: assets/js/stock-quick-edit.js:6
+msgid "The stock save could not be confirmed. Reload the page and verify stock before making another change."
+msgstr ""
+"Non è stato possibile confermare il salvataggio della giacenza. Ricarica la pagina e verifica la "
+"giacenza prima di apportare altre modifiche."
+
+#: includes/admin/class-stock-quick-edit.php:71
+msgid "Stock was not saved. Reload the page and check that you have permission to edit this product."
+msgstr ""
+"La giacenza non è stata salvata. Ricarica la pagina e verifica di avere i permessi per modificare"
+" il prodotto."
+
+#: includes/admin/class-stock-quick-edit.php:72
+msgid "Stock could not be saved or checked. Reload the page and review the current stock before trying again."
+msgstr ""
+"Non è stato possibile salvare o verificare la giacenza. Ricarica la pagina e controlla la "
+"giacenza attuale prima di riprovare."
+
+#: includes/admin/class-stock-quick-edit.php:75
+msgid "WordPress may have saved the other post fields."
+msgstr "WordPress potrebbe aver salvato gli altri campi del contenuto."
+
+#: includes/class-cart-response-builder.php:117
+msgid "Product image"
+msgstr "Immagine del prodotto"
+
+#: includes/class-cart-rest-controller.php:53
+msgid "The cart request failed same-origin CSRF validation."
+msgstr "La richiesta relativa al carrello non ha superato il controllo CSRF sulla stessa origine."
+
+#: includes/class-cart-rest-controller.php:94
+#: includes/class-checkout-rest-controller.php:57
+msgid "No active cart was found."
+msgstr "Nessun carrello attivo trovato."
+
+#: includes/class-cart-rest-controller.php:106
+msgid "A JSON object is required."
+msgstr "È necessario un oggetto JSON."
+
+#. translators: %s: untranslated REST field name, such as post_id or quantity.
+#: includes/class-cart-rest-controller.php:111
+#, php-format
+msgid "%s must be a positive JSON integer."
+msgstr "%s deve essere un intero positivo in formato JSON."
+
+#. translators: post_id is a REST field name. Keep it unchanged.
+#: includes/class-cart-rest-controller.php:123
+msgid "post_id must be an integer greater than 1."
+msgstr "post_id deve essere un intero maggiore di 1."
+
+#: includes/class-cart-rest-controller.php:133
+msgid "No active cart or matching item was found."
+msgstr "Non è stato trovato un carrello attivo o un articolo corrispondente."
+
+#: includes/class-cart-rest-controller.php:144
+msgid "Unable to initialize the cart."
+msgstr "Impossibile inizializzare il carrello."
+
+#: includes/class-cart-service.php:22
+#: includes/class-cart-service.php:42
+#: includes/class-cart-service.php:59
+#: includes/class-cart-service.php:83
+msgid "Invalid cart."
+msgstr "Carrello non valido."
+
+#: includes/class-cart-service.php:23
+#: includes/class-cart-service.php:43
+#: includes/class-cart-service.php:60
+msgid "post_id must be greater than zero."
+msgstr "post_id deve essere maggiore di zero."
+
+#: includes/class-cart-service.php:24
+#: includes/class-cart-service.php:61
+msgid "quantity must be at least 1."
+msgstr "quantity deve essere almeno 1."
+
+#: includes/class-cart-service.php:28
+#: includes/class-cart-service.php:47
+#: includes/class-cart-service.php:65
+#: includes/class-cart-service.php:87
+msgid "Unable to lock cart."
+msgstr "Impossibile bloccare il carrello."
+
+#: includes/class-cart-service.php:30
+#: includes/class-cart-service.php:49
+#: includes/class-cart-service.php:67
+msgid "Unable to read cart item."
+msgstr "Impossibile leggere l’articolo nel carrello."
+
+#: includes/class-cart-service.php:35
+msgid "Unable to add item to cart."
+msgstr "Impossibile aggiungere l’articolo al carrello."
+
+#: includes/class-cart-service.php:37
+msgid "Item added to cart."
+msgstr "Articolo aggiunto al carrello."
+
+#: includes/class-cart-service.php:50
+#: includes/class-cart-service.php:68
+msgid "Item is not present in the cart."
+msgstr "L’articolo non è nel carrello."
+
+#: includes/class-cart-service.php:52
+msgid "Unable to remove item from cart."
+msgstr "Impossibile rimuovere l’articolo dal carrello."
+
+#: includes/class-cart-service.php:54
+msgid "Item removed from cart."
+msgstr "Articolo rimosso dal carrello."
+
+#: includes/class-cart-service.php:73
+msgid "Item quantity is unchanged."
+msgstr "La quantità dell’articolo è invariata."
+
+#: includes/class-cart-service.php:76
+msgid "Unable to update item quantity."
+msgstr "Impossibile aggiornare la quantità dell’articolo."
+
+#: includes/class-cart-service.php:78
+msgid "Item quantity updated."
+msgstr "Quantità dell’articolo aggiornata."
+
+#: includes/class-cart-service.php:89
+msgid "Unable to clear cart."
+msgstr "Impossibile svuotare il carrello."
+
+#: includes/class-cart-service.php:92
+msgid "Cart is already empty."
+msgstr "Il carrello è già vuoto."
+
+#: includes/class-cart-service.php:95
+msgid "Cart cleared."
+msgstr "Carrello svuotato."
+
+#: includes/class-cart-service.php:130
+msgid "The cart mutation failed."
+msgstr "La modifica del carrello non è riuscita."
+
+#: includes/class-cart-service.php:131
+msgid "The cart mutation transaction could not be completed."
+msgstr "Impossibile completare la transazione di modifica del carrello."
+
+#: includes/class-checkout-rest-controller.php:42
+msgid "The checkout request failed same-origin CSRF validation."
+msgstr "La richiesta di pagamento non ha superato il controllo CSRF sulla stessa origine."
+
+#: includes/class-checkout-rest-controller.php:50
+msgid "The checkout attempt is invalid. Please try again."
+msgstr "Il tentativo di acquisto non è valido. Riprova."
+
+#: includes/class-checkout-rest-controller.php:54
+msgid "Refresh the cart before checking out."
+msgstr "Aggiorna il carrello prima di procedere al pagamento."
+
+#: includes/class-checkout-rest-controller.php:71
+msgid "Checkout is temporarily unavailable. Please try again later."
+msgstr "La procedura di acquisto è temporaneamente indisponibile. Riprova più tardi."
+
+#: includes/class-checkout-service.php:42
+msgid "The checkout attempt identifier is invalid."
+msgstr "L’identificativo del tentativo di acquisto non è valido."
+
+#: includes/class-checkout-service.php:45
+msgid "The order could not be persisted atomically."
+msgstr "Impossibile salvare l’ordine con un’unica operazione atomica."
+
+#: includes/class-checkout-service.php:49
+msgid "The cart belongs to another commerce epoch."
+msgstr "Il carrello appartiene a un’altra epoca del commercio."
+
+#: includes/class-checkout-service.php:52
+msgid "The cart could not be locked for checkout."
+msgstr "Impossibile bloccare il carrello per procedere all’acquisto."
+
+#: includes/class-checkout-service.php:60
+msgid "The checkout context changed or expired. Refresh the cart before trying again."
+msgstr ""
+"Il contesto della procedura di acquisto è cambiato o è scaduto. Aggiorna il carrello prima di "
+"riprovare."
+
+#: includes/class-checkout-service.php:66
+msgid "The deleted checkout history could not be read."
+msgstr "Impossibile leggere lo storico delle procedure di acquisto eliminate."
+
+#: includes/class-checkout-service.php:67
+msgid "This checkout belongs to an order that was deleted. Change the cart before checking out again."
+msgstr ""
+"Questa procedura di acquisto è associata a un ordine eliminato. Modifica il carrello prima di "
+"procedere di nuovo al pagamento."
+
+#: includes/class-checkout-service.php:69
+msgid "The checkout state could not be read."
+msgstr "Impossibile leggere lo stato della procedura di acquisto."
+
+#: includes/class-checkout-service.php:72
+msgid "This checkout attempt identifier belongs to a different cart revision."
+msgstr "L’identificativo di questo tentativo di acquisto appartiene a un’altra revisione del carrello."
+
+#: includes/class-checkout-service.php:83
+msgid "This checkout attempt identifier cannot be reused for a new checkout generation."
+msgstr ""
+"L’identificativo di questo tentativo di acquisto non può essere riutilizzato per una nuova "
+"generazione."
+
+#: includes/class-checkout-service.php:85
+msgid "The checkout generation could not be renewed."
+msgstr "Impossibile rinnovare la generazione della procedura di acquisto."
+
+#: includes/class-checkout-service.php:90
+msgid "The cart could not be read for checkout."
+msgstr "Impossibile leggere il carrello per procedere all’acquisto."
+
+#: includes/class-checkout-service.php:97
+msgid "The cart could not be converted into a valid order snapshot."
+msgstr "Impossibile ricavare dal carrello una copia valida dei dati dell’ordine."
+
+#: includes/class-checkout-service.php:99
+msgid "The order could not be created."
+msgstr "Impossibile creare l’ordine."
+
+#: includes/class-checkout-service.php:102
+msgid "The complete order snapshot could not be persisted."
+msgstr "Impossibile salvare tutti i dati dell’ordine."
+
+#: includes/class-checkout-service.php:106
+msgid "The committed checkout context could not be captured."
+msgstr "Impossibile acquisire il contesto della procedura di acquisto già confermato nel database."
+
+#: includes/class-checkout-service.php:111
+msgid "The order could not be persisted because of a database error."
+msgstr "Impossibile salvare l’ordine a causa di un errore del database."
+
+#: includes/class-checkout-service.php:119
+msgid "This cart revision has already been paid."
+msgstr "Questa revisione del carrello è già stata pagata."
+
+#: includes/class-checkout-service.php:121
+msgid "A new checkout cannot be created until the prior checkout is conclusively safe."
+msgstr ""
+"È possibile avviare una nuova procedura di acquisto solo dopo aver verificato che quella "
+"precedente possa essere sostituita in sicurezza."
+
+#: includes/class-checkout-service.php:159
+msgid "This checkout is already awaiting payment."
+msgstr "Questa procedura di acquisto è già in attesa di pagamento."
+
+#: includes/class-checkout-service.php:162
+msgid "This checkout attempt has already failed. Start a new attempt to retry."
+msgstr "Questo tentativo di acquisto non è riuscito. Per riprovare, avvia un nuovo tentativo."
+
+#: includes/class-checkout-service.php:165
+msgid "This checkout attempt already belongs to an order in another lifecycle state."
+msgstr "Questo tentativo di acquisto è già associato a un ordine in uno stato diverso."
+
+#: includes/class-checkout-service.php:170
+msgid "Reservation acquisition could not start safely."
+msgstr "Impossibile avviare la riserva delle unità in sicurezza."
+
+#: includes/class-checkout-service.php:174
+#: includes/class-checkout-service.php:208
+msgid "Checkout preparation completed."
+msgstr "Preparazione dell’acquisto completata."
+
+#: includes/class-checkout-service.php:177
+#: includes/class-reservation-acquirer.php:125
+#: includes/class-reservation-acquirer.php:205
+#: includes/class-reservation-acquirer.php:280
+msgid "The database did not confirm the reservation transaction outcome."
+msgstr "Il database non ha confermato l’esito della transazione di riserva."
+
+#: includes/class-checkout-service.php:182
+msgid "Reservation processing is temporarily unavailable."
+msgstr "L’elaborazione delle riserve è temporaneamente indisponibile."
+
+#: includes/class-checkout-service.php:190
+msgid "Reservation failure finalization could not start."
+msgstr "Impossibile avviare la chiusura della riserva non riuscita."
+
+#: includes/class-checkout-service.php:195
+msgid "The order could not be locked while finalizing the reservation failure."
+msgstr "Impossibile bloccare l’ordine durante la chiusura della riserva non riuscita."
+
+#: includes/class-checkout-service.php:196
+msgid "The order lifecycle changed while finalizing the reservation failure."
+msgstr "Lo stato dell’ordine è cambiato durante la chiusura della riserva non riuscita."
+
+#: includes/class-checkout-service.php:199
+msgid "The immutable order snapshot could not be read while finalizing the reservation failure."
+msgstr "Impossibile leggere i dati immutabili dell’ordine durante la chiusura della riserva non riuscita."
+
+#: includes/class-checkout-service.php:200
+msgid "The immutable order snapshot is inconsistent while finalizing the reservation failure."
+msgstr "I dati immutabili dell’ordine risultano incoerenti durante la chiusura della riserva non riuscita."
+
+#: includes/class-checkout-service.php:202
+msgid "The reservation state could not be verified while finalizing the reservation failure."
+msgstr "Impossibile verificare lo stato della riserva durante la chiusura della riserva non riuscita."
+
+#: includes/class-checkout-service.php:206
+msgid "The reservation state changed incompatibly while finalizing checkout."
+msgstr "Lo stato della riserva è cambiato in modo incompatibile durante la finalizzazione dell’acquisto."
+
+#: includes/class-checkout-service.php:213
+msgid "Reservation failed and the order failure state could not be persisted."
+msgstr "La riserva non è riuscita e non è stato possibile registrare il mancato completamento dell’ordine."
+
+#: includes/class-checkout-service.php:216
+msgid "Checkout preparation could not reserve every item."
+msgstr "Non è stato possibile riservare tutti gli articoli durante la preparazione dell’acquisto."
+
+#: includes/class-checkout-service.php:218
+msgid "Reservation failure finalization encountered a database error."
+msgstr "Un errore del database ha impedito la chiusura della riserva non riuscita."
+
+#: includes/class-checkout-service.php:248
+msgid "The database did not confirm the checkout transaction outcome."
+msgstr "Il database non ha confermato l’esito della transazione di acquisto."
+
+#: includes/class-commerce-reset-rest-controller.php:24
+#: includes/class-order-deletion-rest-controller.php:29
+msgid "Authentication is required."
+msgstr "È necessario autenticarsi."
+
+#: includes/class-commerce-reset-rest-controller.php:25
+msgid "You are not allowed to reset commerce history."
+msgstr "Non hai il permesso di azzerare lo storico del commercio."
+
+#: includes/class-commerce-reset-rest-controller.php:102
+msgid "Outcome requires fresh durable status inspection before any further mutation."
+msgstr "Prima di apportare altre modifiche, verifica di nuovo lo stato registrato dell’operazione."
+
+#: includes/class-commerce-reset-rest-controller.php:102
+msgid "Reset is blocked. Administrative investigation is required; automatic continuation is unavailable."
+msgstr ""
+"L’azzeramento è bloccato. È necessaria una verifica da parte dell’amministratore. La prosecuzione"
+" automatica non è disponibile."
+
+#: includes/class-commerce-reset-rest-controller.php:102
+msgid "Full Commerce Reset is complete."
+msgstr "L’azzeramento completo del commercio è terminato."
+
+#: includes/class-commerce-reset-rest-controller.php:102
+msgid "Reset remains incomplete. Query status before requesting one bounded continuation."
+msgstr "L’azzeramento è ancora incompleto. Controlla lo stato prima di richiedere un altro passaggio."
+
+#: includes/class-commerce-reset-rest-controller.php:102
+msgid "Request was not completed. Query the exact operation status before deciding further action."
+msgstr ""
+"La richiesta non è stata completata. Controlla lo stato dell’operazione esatta prima di decidere "
+"come procedere."
+
+#: includes/class-commerce-rules.php:39
+msgid "The cart must contain at least one item."
+msgstr "Il carrello deve contenere almeno un articolo."
+
+#: includes/class-commerce-rules.php:47
+msgid "The cart contains an invalid item."
+msgstr "Il carrello contiene un articolo non valido."
+
+#: includes/class-commerce-rules.php:60
+msgid "Checkout is allowed because the cart contains a minimum-order exempt item."
+msgstr ""
+"Puoi procedere al pagamento perché il carrello contiene un articolo esente dalla quantità minima "
+"d’ordine."
+
+#: includes/class-commerce-rules.php:64
+msgid "The minimum order quantity has not been reached."
+msgstr "La quantità minima d’ordine non è stata raggiunta."
+
+#: includes/class-commerce-rules.php:75
+msgid "The requested item does not exist."
+msgstr "L’articolo richiesto non esiste."
+
+#: includes/class-commerce-rules.php:79
+msgid "The requested item is not part of the configured collection."
+msgstr "L’articolo richiesto non fa parte della collezione configurata."
+
+#: includes/class-commerce-rules.php:83
+msgid "The requested quantity must be greater than zero."
+msgstr "La quantità richiesta deve essere maggiore di zero."
+
+#: includes/class-commerce-rules.php:88
+msgid "The requested item is not available."
+msgstr "L’articolo richiesto non è disponibile."
+
+#: includes/class-commerce-rules.php:93
+msgid "The requested item does not have a valid price."
+msgstr "L’articolo richiesto non ha un prezzo valido."
+
+#: includes/class-commerce-rules.php:98
+msgid "The requested item is out of stock."
+msgstr "L’articolo richiesto è esaurito."
+
+#: includes/class-commerce-rules.php:102
+msgid "The requested quantity exceeds the available stock."
+msgstr "La quantità richiesta supera la giacenza disponibile."
+
+#: includes/class-commerce-rules.php:128
+msgid "The commercial rules allow this request."
+msgstr "Le regole commerciali consentono questa richiesta."
+
+#: includes/class-money.php:32
+msgid "Euro"
+msgstr "Euro"
+
+#: includes/class-money.php:37
+msgid "US Dollar"
+msgstr "Dollaro statunitense"
+
+#. translators: 1: currency symbol (for example € or US$), 2: amount.
+#: includes/class-money.php:128
+#, php-format
+msgctxt "amount with currency symbol"
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#. translators: 1: amount, 2: ISO currency code such as JPY.
+#: includes/class-money.php:131
+#, php-format
+msgctxt "amount with ISO currency code"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/class-order-admin-read-repository.php:28
+msgid "A filter value is invalid. Correct the filters or clear them to continue."
+msgstr "Un valore del filtro non è valido. Correggi o azzera i filtri per continuare."
+
+#: includes/class-order-admin-read-repository.php:37
+msgid "Enter an exact order reference, such as C2C-123 or 123."
+msgstr "Inserisci un riferimento esatto dell’ordine, ad esempio C2C-123 o 123."
+
+#: includes/class-order-admin-read-repository.php:41
+msgid "Choose a valid order status."
+msgstr "Scegli uno stato dell’ordine valido."
+
+#: includes/class-order-admin-read-repository.php:44
+msgid "Choose a valid payment review filter."
+msgstr "Scegli un filtro valido per la verifica del pagamento."
+
+#: includes/class-order-admin-read-repository.php:51
+msgid "Enter a valid date in YYYY-MM-DD format (years 1000–9999; the final date must be before 9999-12-31)."
+msgstr ""
+"Inserisci una data valida nel formato YYYY-MM-DD (anni da 1000 a 9999; la data finale deve essere"
+" precedente al 9999-12-31)."
+
+#: includes/class-order-admin-read-repository.php:58
+msgid "Created to must be on or after Created from."
+msgstr "La data di fine creazione deve coincidere con la data di inizio o essere successiva."
+
+#: includes/class-order-deletion-rest-controller.php:32
+#: includes/class-order-deletion-rest-controller.php:36
+msgid "You are not allowed to permanently delete orders."
+msgstr "Non hai il permesso di eliminare definitivamente gli ordini."
+
+#: includes/class-order-deletion-rest-controller.php:39
+msgid "order_id must be one positive integer."
+msgstr "order_id deve essere un singolo numero intero positivo."
+
+#: includes/class-order-deletion-rest-controller.php:56
+msgid "Type the exact confirmation for this Order."
+msgstr "Digita la conferma esatta per questo ordine."
+
+#: includes/class-order-deletion-rest-controller.php:70
+msgid "The deletion outcome is unverified. Use read-only inspection; do not repeat the deletion."
+msgstr ""
+"L’esito dell’eliminazione non è verificato. Consulta l’ordine in sola lettura e non ripetere "
+"l’eliminazione."
+
+#: includes/class-order-deletion-rest-controller.php:75
+msgid "A confirmed deletion and exact expected commerce context are required."
+msgstr "Sono necessari la conferma dell’eliminazione e il contesto del commercio esatto previsto."
+
+#: includes/class-order-deletion-rest-controller.php:80
+msgid "The displayed commerce context is no longer current. Inspect the Order again."
+msgstr "Il contesto del commercio visualizzato non è più attuale. Consulta di nuovo l’ordine."
+
+#: includes/class-order-deletion-rest-controller.php:81
+msgid "The order was permanently deleted."
+msgstr "L’ordine è stato eliminato definitivamente."
+
+#: includes/class-order-deletion-rest-controller.php:82
+msgid "The order was already permanently deleted."
+msgstr "L’ordine era già stato eliminato definitivamente."
+
+#: includes/class-order-deletion-rest-controller.php:83
+msgid "The Order is absent, but permanent deletion is unverified."
+msgstr "L’ordine è assente, ma l’eliminazione definitiva non è verificata."
+
+#: includes/class-order-deletion-rest-controller.php:84
+msgid "The order is absent, but its historical identity cannot be proved."
+msgstr "L’ordine è assente, ma non è possibile provarne l’identità storica."
+
+#: includes/class-order-deletion-rest-controller.php:85
+msgid "The order cannot be deleted because its durable identity evidence conflicts."
+msgstr "Impossibile eliminare l’ordine perché le evidenze registrate sulla sua identità sono in conflitto."
+
+#: includes/class-order-deletion-rest-controller.php:86
+msgid "The order cannot be deleted because its stored state is inconsistent."
+msgstr "Impossibile eliminare l’ordine perché lo stato salvato è incoerente."
+
+#: includes/class-order-deletion-rest-controller.php:87
+msgid "The order deletion could not be completed."
+msgstr "Impossibile completare l’eliminazione dell’ordine."
+
+#: includes/class-order-deletion-rest-controller.php:88
+msgid "The deletion outcome is unknown. Verify the order state before taking further action."
+msgstr "L’esito dell’eliminazione è sconosciuto. Verifica lo stato dell’ordine prima di procedere."
+
+#: includes/class-order-deletion-rest-controller.php:90
+msgid "The deletion outcome is unverified. Use read-only inspection."
+msgstr "L’esito dell’eliminazione non è verificato. Consulta l’ordine in sola lettura."
+
+#: includes/class-order-statuses.php:32
+msgid "Pending"
+msgstr "In sospeso"
+
+#: includes/class-order-statuses.php:33
+msgid "Awaiting payment"
+msgstr "In attesa di pagamento"
+
+#: includes/class-order-statuses.php:34
+msgid "Paid"
+msgstr "Pagato"
+
+#: includes/class-order-statuses.php:35
+#: includes/class-payment-session-statuses.php:25
+msgid "Cancelled"
+msgstr "Annullato"
+
+#: includes/class-order-statuses.php:36
+#: includes/class-payment-session-statuses.php:24
+#: includes/class-reservation-statuses.php:31
+msgid "Expired"
+msgstr "Scaduto"
+
+#: includes/class-order-statuses.php:37
+#: includes/class-payment-session-statuses.php:26
+msgid "Failed"
+msgstr "Non riuscito"
+
+#: includes/class-payment-notification-email.php:13
+msgid "New paid order"
+msgstr "Nuovo ordine pagato"
+
+#: includes/class-payment-notification-email.php:13
+#: assets/js/post-checkout.js:9
+msgid "Payment confirmed"
+msgstr "Pagamento confermato"
+
+#: includes/class-payment-notification-email.php:14
+msgid "An order has been paid."
+msgstr "È stato pagato un ordine."
+
+#: includes/class-payment-notification-email.php:14
+msgid "Thank you for your order. We have received your payment."
+msgstr "Grazie per il tuo ordine. Abbiamo ricevuto il pagamento."
+
+#. translators: 1: translated payment notification heading, 2: order reference such as C2C-123.
+#: includes/class-payment-notification-email.php:17
+#, php-format
+msgctxt "paid order email subject"
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. translators: 1: order reference label, 2: order reference such as C2C-123.
+#: includes/class-payment-notification-email.php:19
+#, php-format
+msgctxt "email order reference line"
+msgid "%1$s %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: 1: paid total label, 2: amount including the currency marker.
+#: includes/class-payment-notification-email.php:21
+#, php-format
+msgctxt "email paid total line"
+msgid "%1$s %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: 1: paid total label, 2: amount including the currency marker.
+#: includes/class-payment-notification-email.php:21
+msgid "Paid total"
+msgstr "Totale pagato"
+
+#: includes/class-payment-notification-email.php:26
+msgid "View order in WordPress"
+msgstr "Visualizza l’ordine in WordPress"
+
+#: includes/class-payment-notification-email.php:47
+msgid "Automated order notification"
+msgstr "Notifica automatica dell’ordine"
+
+#: includes/class-payment-session-service.php:16
+msgid "The payment session request is invalid."
+msgstr "La richiesta di sessione di pagamento non è valida."
+
+#: includes/class-payment-session-service.php:17
+msgid "Payment-session transactions are not supported."
+msgstr "Le transazioni per le sessioni di pagamento non sono supportate."
+
+#: includes/class-payment-session-service.php:27
+msgid "The originating provider does not match the native request."
+msgstr "Il fornitore originario non corrisponde alla richiesta originale."
+
+#: includes/class-payment-session-service.php:34
+#: includes/class-payment-session-service.php:42
+msgid "Provider evidence could not be recorded."
+msgstr "Impossibile registrare le evidenze del fornitore."
+
+#: includes/class-payment-session-service.php:37
+msgid "The payment provider rejected the session request."
+msgstr "Il fornitore di pagamento ha rifiutato la richiesta di sessione."
+
+#: includes/class-payment-session-service.php:38
+msgid "The remaining reservation window is too short to create a payment session."
+msgstr "Il tempo residuo della riserva è insufficiente per creare una sessione di pagamento."
+
+#: includes/class-payment-session-service.php:40
+#: includes/class-payment-session-service.php:41
+msgid "The provider result could not be reconciled. Retry this same payment attempt."
+msgstr ""
+"Impossibile riconciliare l’esito restituito dal fornitore. Riprova con lo stesso tentativo di "
+"pagamento."
+
+#: includes/class-payment-session-service.php:48
+msgid "The payment-session claim could not start."
+msgstr "Impossibile avviare l’assegnazione della sessione di pagamento."
+
+#: includes/class-payment-session-service.php:53
+msgid "The original checkout parent could not be read."
+msgstr "Impossibile leggere il record originario della procedura di acquisto."
+
+#: includes/class-payment-session-service.php:55
+msgid "The checkout context changed before payment creation."
+msgstr "Il contesto della procedura di acquisto è cambiato prima della creazione del pagamento."
+
+#: includes/class-payment-session-service.php:58
+msgid "The order no longer matches this checkout context."
+msgstr "L’ordine non corrisponde più al contesto di questa procedura di acquisto."
+
+#: includes/class-payment-session-service.php:61
+msgid "The order could not be locked."
+msgstr "Impossibile bloccare l’ordine."
+
+#: includes/class-payment-session-service.php:62
+#: includes/class-reservation-acquirer.php:98
+msgid "The requested order does not exist."
+msgstr "L’ordine richiesto non esiste."
+
+#: includes/class-payment-session-service.php:64
+msgid "The payment attempt could not be read."
+msgstr "Impossibile leggere il tentativo di pagamento."
+
+#: includes/class-payment-session-service.php:65
+msgid "The payment attempt requires reconciliation."
+msgstr "Il tentativo di pagamento richiede una riconciliazione."
+
+#: includes/class-payment-session-service.php:68
+msgid "The durable claim could not be read."
+msgstr "Impossibile leggere il record persistente di assegnazione."
+
+#: includes/class-payment-session-service.php:69
+msgid "The original provider request is unavailable; automatic creation retry is blocked."
+msgstr ""
+"La richiesta originale al fornitore non è disponibile. La ripetizione automatica della creazione "
+"è bloccata."
+
+#: includes/class-payment-session-service.php:72
+msgid "The payment-session slot could not be read."
+msgstr "Impossibile leggere lo slot della sessione di pagamento."
+
+#: includes/class-payment-session-service.php:75
+msgid "Another payment session is being created for this order. Retry later."
+msgstr ""
+"Per questo ordine è già in corso la creazione di un’altra sessione di pagamento. Riprova più "
+"tardi."
+
+#: includes/class-payment-session-service.php:77
+msgid "The awaiting-payment order cannot create a replacement session."
+msgstr "Non è possibile creare una sessione sostitutiva per un ordine in attesa di pagamento."
+
+#: includes/class-payment-session-service.php:78
+msgid "The order is not eligible for payment-session creation."
+msgstr "L’ordine non soddisfa i requisiti per creare una sessione di pagamento."
+
+#: includes/class-payment-session-service.php:79
+msgid "This payment key belongs to a terminal session."
+msgstr "Questa chiave di pagamento appartiene a una sessione conclusa."
+
+#: includes/class-payment-session-service.php:80
+msgid "Another payment session owns this order."
+msgstr "Un’altra sessione di pagamento è già associata a questo ordine."
+
+#: includes/class-payment-session-service.php:81
+msgid "This Stripe payment attempt is too old to retry automatically and requires manual reconciliation."
+msgstr ""
+"Questo tentativo di pagamento Stripe è troppo vecchio per essere ripetuto automaticamente e "
+"richiede una riconciliazione manuale."
+
+#: includes/class-payment-session-service.php:83
+msgid "The order items could not be read."
+msgstr "Impossibile leggere gli articoli dell’ordine."
+
+#: includes/class-payment-session-service.php:84
+msgid "The order has no immutable items."
+msgstr "L’ordine non contiene articoli registrati in modo immutabile."
+
+#: includes/class-payment-session-service.php:85
+msgid "The immutable order snapshot is invalid."
+msgstr "I dati immutabili dell’ordine non sono validi."
+
+#: includes/class-payment-session-service.php:87
+msgid "The reservations could not be read."
+msgstr "Impossibile leggere le riserve."
+
+#: includes/class-payment-session-service.php:89
+msgid "The order does not have an exact active reservation set."
+msgstr "L’ordine non dispone dell’insieme esatto di riserve attive richiesto."
+
+#: includes/class-payment-session-service.php:92
+msgid "The provider claim is inconsistent."
+msgstr "L’assegnazione del fornitore è incoerente."
+
+#: includes/class-payment-session-service.php:94
+msgid "The active provider identity is inconsistent."
+msgstr "L’identità attiva del fornitore è incoerente."
+
+#: includes/class-payment-session-service.php:95
+msgid "The active payment session is inconsistent with the order or reservation state."
+msgstr "La sessione di pagamento attiva non è coerente con lo stato dell’ordine o delle riserve."
+
+#: includes/class-payment-session-service.php:96
+msgid "The database did not confirm the payment-session replay transaction outcome."
+msgstr ""
+"Il database non ha confermato l’esito della transazione di ripetizione della sessione di "
+"pagamento."
+
+#: includes/class-payment-session-service.php:97
+msgid "The order already has an active payment session."
+msgstr "L’ordine ha già una sessione di pagamento attiva."
+
+#: includes/class-payment-session-service.php:101
+msgid "The original payment attempt cannot be recreated from retained evidence."
+msgstr "Le evidenze conservate non consentono di ricreare il tentativo di pagamento originale."
+
+#: includes/class-payment-session-service.php:102
+msgid "A secure payment-session reference could not be generated."
+msgstr "Impossibile generare un riferimento sicuro per la sessione di pagamento."
+
+#: includes/class-payment-session-service.php:104
+msgid "The durable payment attempt could not be created."
+msgstr "Impossibile registrare il tentativo di pagamento."
+
+#: includes/class-payment-session-service.php:106
+msgid "The durable payment attempt does not match the order."
+msgstr "Il tentativo di pagamento registrato non corrisponde all’ordine."
+
+#: includes/class-payment-session-service.php:110
+msgid "The provider registry could not be read."
+msgstr "Impossibile leggere il registro dei fornitori."
+
+#: includes/class-payment-session-service.php:111
+msgid "The durable provider request is inconsistent; automatic creation retry is blocked."
+msgstr ""
+"La richiesta registrata per il fornitore è incoerente. La ripetizione automatica della creazione "
+"è bloccata."
+
+#: includes/class-payment-session-service.php:122
+#: includes/class-payment-session-service.php:147
+msgid "The durable provider claim is inconsistent."
+msgstr "L’assegnazione registrata del fornitore è incoerente."
+
+#: includes/class-payment-session-service.php:125
+msgid "The database did not confirm the durable payment-attempt transaction outcome."
+msgstr ""
+"Il database non ha confermato l’esito della transazione di registrazione del tentativo di "
+"pagamento."
+
+#: includes/class-payment-session-service.php:127
+msgid "The payment-session claim failed."
+msgstr "L’assegnazione della sessione di pagamento non è riuscita."
+
+#: includes/class-payment-session-service.php:132
+msgid "Payment-session reconciliation could not start."
+msgstr "Impossibile avviare la riconciliazione della sessione di pagamento."
+
+#: includes/class-payment-session-service.php:136
+msgid "Payment-session reconciliation state could not be locked."
+msgstr "Impossibile bloccare lo stato di riconciliazione della sessione di pagamento."
+
+#: includes/class-payment-session-service.php:137
+msgid "The payment session no longer matches the expected local state."
+msgstr "La sessione di pagamento non corrisponde più allo stato locale previsto."
+
+#: includes/class-payment-session-service.php:139
+msgid "The order items could not be reloaded."
+msgstr "Impossibile rileggere gli articoli dell’ordine."
+
+#: includes/class-payment-session-service.php:141
+msgid "The reservations could not be reloaded."
+msgstr "Impossibile rileggere le riserve."
+
+#: includes/class-payment-session-service.php:143
+msgid "Reservation coverage ended before payment-session activation."
+msgstr "Le riserve sono scadute prima dell’attivazione della sessione di pagamento."
+
+#: includes/class-payment-session-service.php:144
+msgid "The payment provider returned an unusable session."
+msgstr "Il fornitore di pagamento ha restituito una sessione inutilizzabile."
+
+#: includes/class-payment-session-service.php:151
+msgid "Provider identity ownership changed before activation."
+msgstr "Il titolare dell’identità del fornitore è cambiato prima dell’attivazione."
+
+#: includes/class-payment-session-service.php:153
+msgid "The payment session and order could not be activated atomically."
+msgstr "Impossibile attivare la sessione di pagamento e l’ordine con un’unica operazione atomica."
+
+#: includes/class-payment-session-service.php:157
+msgid "The active payment session could not be reloaded."
+msgstr "Impossibile rileggere la sessione di pagamento attiva."
+
+#: includes/class-payment-session-service.php:158
+msgid "The database did not confirm the payment-session activation transaction outcome."
+msgstr ""
+"Il database non ha confermato l’esito della transazione di attivazione della sessione di "
+"pagamento."
+
+#: includes/class-payment-session-service.php:159
+msgid "The payment session was created."
+msgstr "La sessione di pagamento è stata creata."
+
+#: includes/class-payment-session-service.php:160
+msgid "Payment-session reconciliation failed."
+msgstr "La riconciliazione della sessione di pagamento non è riuscita."
+
+#: includes/class-payment-session-service.php:219
+#: includes/class-payment-session-service.php:222
+msgid "The provider rejection could not be persisted."
+msgstr "Impossibile registrare il rifiuto del fornitore."
+
+#: includes/class-payment-session-service.php:223
+msgid "The database did not confirm the provider-rejection transaction outcome."
+msgstr ""
+"Il database non ha confermato l’esito della transazione di registrazione del rifiuto del "
+"fornitore."
+
+#: includes/class-payment-session-service.php:228
+#: includes/class-payment-session-service.php:254
+msgid "The database did not confirm the payment-session transaction outcome."
+msgstr "Il database non ha confermato l’esito della transazione relativa alla sessione di pagamento."
+
+#: includes/class-payment-session-service.php:229
+msgid "The order was permanently deleted while the payment provider request was in progress."
+msgstr ""
+"L’ordine è stato eliminato definitivamente mentre era in corso la richiesta al fornitore di "
+"pagamento."
+
+#: includes/class-payment-session-service.php:235
+msgid "The database did not confirm the deletion-state probe outcome."
+msgstr "Il database non ha confermato l’esito della verifica dello stato di eliminazione."
+
+#: includes/class-payment-session-statuses.php:21
+msgid "Creating"
+msgstr "In creazione"
+
+#: includes/class-payment-session-statuses.php:22
+#: includes/class-reservation-statuses.php:30
+msgid "Active"
+msgstr "Attiva"
+
+#: includes/class-post-checkout-rest-controller.php:35
+msgid "This request is unavailable."
+msgstr "Questa richiesta non è disponibile."
+
+#. translators: %s: the displayed rating.
+#: includes/class-ratings.php:87
+#, php-format
+msgid "Rating: %s out of 5"
+msgstr "Valutazione: %s su 5"
+
+#: includes/class-reservation-acquirer.php:48
+msgid "Atomic stock reservations are not supported by the current database configuration."
+msgstr "La configurazione attuale del database non supporta le riserve di giacenza atomiche."
+
+#: includes/class-reservation-acquirer.php:101
+msgid "The order is not eligible for a new reservation."
+msgstr "L’ordine non soddisfa i requisiti per una nuova riserva."
+
+#: includes/class-reservation-acquirer.php:109
+msgid "The order does not contain any items."
+msgstr "L’ordine non contiene articoli."
+
+#: includes/class-reservation-acquirer.php:112
+#: includes/class-reservation-acquirer.php:139
+msgid "The order contains invalid snapshot data."
+msgstr "L’ordine contiene dati salvati non validi."
+
+#: includes/class-reservation-acquirer.php:127
+msgid "The order already has an active reservation."
+msgstr "L’ordine ha già una riserva attiva."
+
+#: includes/class-reservation-acquirer.php:129
+msgid "The order has an incompatible reservation history."
+msgstr "Lo storico delle riserve dell’ordine è incompatibile."
+
+#: includes/class-reservation-acquirer.php:151
+#: includes/class-reservation-acquirer.php:162
+msgid "An order item no longer exists."
+msgstr "Un articolo dell’ordine non esiste più."
+
+#: includes/class-reservation-acquirer.php:165
+msgid "An order item is no longer available."
+msgstr "Un articolo dell’ordine non è più disponibile."
+
+#: includes/class-reservation-acquirer.php:170
+msgid "An order item has invalid catalog data."
+msgstr "Un articolo dell’ordine contiene dati di catalogo non validi."
+
+#: includes/class-reservation-acquirer.php:177
+msgid "The catalog currency no longer matches the order."
+msgstr "La valuta del catalogo non corrisponde più a quella dell’ordine."
+
+#: includes/class-reservation-acquirer.php:180
+msgid "An order item price no longer matches the catalog."
+msgstr "Il prezzo di un articolo dell’ordine non corrisponde più a quello del catalogo."
+
+#: includes/class-reservation-acquirer.php:191
+msgid "There is not enough stock to reserve every order item."
+msgstr "La giacenza non basta per riservare tutti gli articoli dell’ordine."
+
+#: includes/class-reservation-acquirer.php:207
+msgid "Stock was reserved for the order."
+msgstr "Le unità sono state riservate per l’ordine."
+
+#: includes/class-reservation-acquirer.php:336
+msgid "The reservation could not be completed because of a database error."
+msgstr "Un errore del database ha impedito il completamento della riserva."
+
+#: includes/class-reservation-statuses.php:32
+msgid "Released"
+msgstr "Rilasciata"
+
+#: includes/class-reservation-statuses.php:33
+msgid "Converted"
+msgstr "Convertita"
+
+#: includes/class-statuses.php:27
+msgid "Available"
+msgstr "Disponibile"
+
+#: includes/class-statuses.php:28
+msgid "Reserved"
+msgstr "Riservato"
+
+#: includes/class-statuses.php:29
+msgid "Sold"
+msgstr "Venduto"
+
+#: includes/class-statuses.php:30
+msgid "Not for sale"
+msgstr "Non in vendita"
+
+#: includes/frontend/class-add-to-cart-shortcode.php:20
+msgid "No collection item is available for this add-to-cart control."
+msgstr "Nessun articolo della collezione è disponibile per questo pulsante di aggiunta al carrello."
+
+#: includes/frontend/class-add-to-cart-shortcode.php:27
+#: assets/js/cart-frontend.js:16
+#: assets/js/post-checkout.js:33
+msgid "Quantity"
+msgstr "Quantità"
+
+#: includes/frontend/class-add-to-cart-shortcode.php:29
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#. translators: %d: number of items in the cart.
+#: includes/frontend/class-cart-count-shortcode.php:18
+#: assets/js/cart-frontend.js:88
+#, php-format,js-format
+msgid "%d item in cart"
+msgid_plural "%d items in cart"
+msgstr[0] "%d articolo nel carrello"
+msgstr[1] "%d articoli nel carrello"
+
+#: includes/frontend/class-cart-shortcode.php:14
+#: includes/frontend/class-mini-cart-shortcode.php:23
+msgid "Loading cart…"
+msgstr "Caricamento del carrello…"
+
+#: includes/frontend/class-cart-shortcode.php:14
+msgid "Clear cart"
+msgstr "Svuota il carrello"
+
+#: includes/frontend/class-cart-shortcode.php:14
+msgid "Proceed to checkout"
+msgstr "Procedi al pagamento"
+
+#: includes/frontend/class-mini-cart-shortcode.php:19
+msgid "Open cart"
+msgstr "Apri il carrello"
+
+#: includes/frontend/class-mini-cart-shortcode.php:25
+msgid "View cart"
+msgstr "Visualizza il carrello"
+
+#: includes/frontend/class-post-checkout-shortcodes.php:24
+msgid "Check your order status here."
+msgstr "Controlla qui lo stato del tuo ordine."
+
+#: includes/frontend/class-post-checkout-shortcodes.php:28
+msgid "Enable JavaScript to check your order status. Visiting this page does not confirm payment."
+msgstr ""
+"Abilita JavaScript per controllare lo stato del tuo ordine. Visitare questa pagina non conferma "
+"il pagamento."
+
+#: includes/frontend/class-post-checkout-shortcodes.php:35
+msgid "Checkout"
+msgstr "Procedura di acquisto"
+
+#: includes/frontend/class-post-checkout-shortcodes.php:36
+msgid "Opening this page does not confirm or cancel your order or payment."
+msgstr "Aprire questa pagina non conferma né annulla l’ordine o il pagamento."
+
+#: includes/frontend/class-post-checkout-shortcodes.php:37
+msgid "You can return to review your items and decide what to do next."
+msgstr "Puoi tornare indietro per rivedere gli articoli e decidere come procedere."
+
+#: includes/frontend/class-post-checkout-shortcodes.php:43
+msgid "Return to cart"
+msgstr "Torna al carrello"
+
+#: includes/frontend/class-post-checkout-shortcodes.php:43
+msgid "Return to site"
+msgstr "Torna al sito"
+
+#: assets/js/admin-stock.js:32
+msgid "The stock save could not be confirmed. Reload and verify the current stock before making another change."
+msgstr ""
+"Non è stato possibile confermare il salvataggio della giacenza. Ricarica la pagina e verifica la "
+"giacenza attuale prima di apportare altre modifiche."
+
+#: assets/js/cart-frontend.js:9
+msgid "Your cart is empty."
+msgstr "Il carrello è vuoto."
+
+#: assets/js/cart-frontend.js:10
+msgid "The cart could not be updated. Check your connection and try again."
+msgstr "Impossibile aggiornare il carrello. Controlla la connessione e riprova."
+
+#. translators: %d: quantity already in the cart.
+#: assets/js/cart-frontend.js:12
+#, js-format
+msgid "Already in cart: %d"
+msgstr "Già nel carrello: %d"
+
+#. translators: %s: product title.
+#: assets/js/cart-frontend.js:14
+#, js-format
+msgid "Remove %s from cart"
+msgstr "Rimuovi %s dal carrello"
+
+#: assets/js/cart-frontend.js:15
+msgid "Update"
+msgstr "Aggiorna"
+
+#. translators: %d: available stock quantity.
+#: assets/js/cart-frontend.js:18
+#, js-format
+msgid "Available stock: %d"
+msgstr "Giacenza disponibile: %d"
+
+#: assets/js/cart-frontend.js:20
+msgid "Total unavailable until invalid items are removed."
+msgstr "Il totale sarà disponibile dopo la rimozione degli articoli non validi."
+
+#: assets/js/cart-frontend.js:21
+msgid "Enter a valid quantity."
+msgstr "Inserisci una quantità valida."
+
+#: assets/js/cart-frontend.js:24
+msgid "Out of stock"
+msgstr "Esaurito"
+
+#: assets/js/cart-frontend.js:25
+msgid "Insufficient stock"
+msgstr "Giacenza insufficiente"
+
+#: assets/js/cart-frontend.js:26
+msgid "Product"
+msgstr "Prodotto"
+
+#: assets/js/cart-frontend.js:28
+msgid "Unique items"
+msgstr "Articoli distinti"
+
+#: assets/js/cart-frontend.js:29
+msgid "Total quantity"
+msgstr "Quantità totale"
+
+#: assets/js/cart-frontend.js:31
+msgid "Checkout eligibility"
+msgstr "Requisiti per procedere al pagamento"
+
+#: assets/js/cart-frontend.js:32
+msgid "Opening secure checkout…"
+msgstr "Apertura della pagina di pagamento sicuro…"
+
+#. translators: 1: quantity, 2: unit price.
+#: assets/js/cart-frontend.js:34
+#, js-format
+msgid "%1$d × %2$s"
+msgstr "%1$d × %2$s"
+
+#. translators: %s: subtotal amount.
+#: assets/js/cart-frontend.js:36
+#, js-format
+msgid "Subtotal: %s"
+msgstr "Subtotale: %s"
+
+#. translators: %s: total amount.
+#: assets/js/cart-frontend.js:38
+#, js-format
+msgid "Total: %s"
+msgstr "Totale: %s"
+
+#. translators: %s: product title.
+#: assets/js/cart-frontend.js:40
+#, js-format
+msgid "Quantity — %s"
+msgstr "Quantità — %s"
+
+#. translators: %d: additional items needed to place the order.
+#: assets/js/cart-frontend.js:92
+#, js-format
+msgid "You need %d more item to place this order."
+msgid_plural "You need %d more items to place this order."
+msgstr[0] "Per effettuare l’ordine serve ancora %d articolo."
+msgstr[1] "Per effettuare l’ordine servono ancora %d articoli."
+
+#: assets/js/commerce-reset-admin.js:14
+msgid "Checking commerce records"
+msgstr "Verifica dei dati del commercio"
+
+#: assets/js/commerce-reset-admin.js:15
+#: assets/js/commerce-reset-admin.js:16
+msgid "Preserving payment history"
+msgstr "Conservazione dello storico dei pagamenti"
+
+#: assets/js/commerce-reset-admin.js:17
+msgid "Removing commerce records"
+msgstr "Eliminazione dei dati del commercio"
+
+#: assets/js/commerce-reset-admin.js:18
+msgid "Finishing reset"
+msgstr "Completamento dell’azzeramento"
+
+#: assets/js/commerce-reset-admin.js:21
+msgid "Running"
+msgstr "In corso"
+
+#: assets/js/commerce-reset-admin.js:22
+msgid "Blocked"
+msgstr "Bloccato"
+
+#: assets/js/commerce-reset-admin.js:26
+msgid "Reset ready"
+msgstr "Azzeramento pronto"
+
+#: assets/js/commerce-reset-admin.js:28
+msgid "Reset in progress"
+msgstr "Azzeramento in corso"
+
+#: assets/js/commerce-reset-admin.js:29
+msgid "Checking the latest status"
+msgstr "Verifica dello stato più recente"
+
+#: assets/js/commerce-reset-admin.js:30
+msgid "Reset paused"
+msgstr "Azzeramento in pausa"
+
+#: assets/js/commerce-reset-admin.js:31
+msgid "Reset paused. The last step could not be confirmed. Select Continue reset to check again and resume."
+msgstr ""
+"Azzeramento in pausa. Non è stato possibile confermare l’ultimo passaggio. Seleziona Continua "
+"l’azzeramento per verificare di nuovo e riprendere."
+
+#: assets/js/commerce-reset-admin.js:32
+msgid "Reset paused. No reset was found at this recovery URL."
+msgstr "Azzeramento in pausa. Non è stato trovato alcun azzeramento a questo URL di ripresa."
+
+#: assets/js/commerce-reset-admin.js:33
+msgid "Reset paused. No reset was found. You can confirm the same start again."
+msgstr ""
+"Azzeramento in pausa. Non è stato trovato alcun azzeramento. Puoi confermare di nuovo lo stesso "
+"avvio."
+
+#: assets/js/commerce-reset-admin.js:34
+msgid "Reset paused. Check status again in Advanced details."
+msgstr "Azzeramento in pausa. Controlla di nuovo lo stato in Dettagli avanzati."
+
+#: assets/js/commerce-reset-admin.js:35
+msgid "Reset paused. Recovery storage is unavailable. Copy the recovery URL and reopen it when storage is available."
+msgstr ""
+"Azzeramento in pausa. I dati di ripresa non sono accessibili. Copia l’URL di ripresa e riaprilo "
+"quando i dati saranno disponibili."
+
+#: assets/js/commerce-reset-admin.js:36
+msgid "Sign in again to continue. Reopen the recovery URL after signing in."
+msgstr "Accedi di nuovo per continuare. Dopo l’accesso, riapri l’URL di ripresa."
+
+#: assets/js/commerce-reset-admin.js:37
+msgid "Reset blocked. Investigate the operation in Advanced details."
+msgstr "Azzeramento bloccato. Esamina l’operazione in Dettagli avanzati."
+
+#: assets/js/commerce-reset-admin.js:38
+msgid "Reset complete. Commerce is available again."
+msgstr "Azzeramento completato. Le attività di vendita sono di nuovo disponibili."
+
+#: assets/js/commerce-reset-admin.js:39
+msgid "Reset complete. Check current commerce status separately."
+msgstr "Azzeramento completato. Verifica separatamente lo stato attuale del commercio."
+
+#: assets/js/commerce-reset-admin.js:40
+msgid "Enter a valid operation identity in Advanced details."
+msgstr "Inserisci un identificativo di operazione valido in Dettagli avanzati."
+
+#: assets/js/commerce-reset-admin.js:53
+msgid "Retry same start"
+msgstr "Ripeti lo stesso avvio"
+
+#: assets/js/order-deletion.js:18
+msgid "The Order was permanently deleted."
+msgstr "L’ordine è stato eliminato definitivamente."
+
+#: assets/js/order-deletion.js:19
+msgid "The Order was already permanently deleted, confirmed by durable deletion evidence."
+msgstr "Le evidenze registrate confermano che l’ordine era già stato eliminato definitivamente."
+
+#: assets/js/order-deletion.js:20
+#: assets/js/order-deletion.js:21
+msgid "The Order is absent, but deletion cannot be proved. The outcome remains unverified."
+msgstr "L’ordine è assente, ma l’eliminazione non può essere provata. L’esito resta non verificato."
+
+#: assets/js/order-deletion.js:22
+msgid "Deletion was rejected because identity evidence conflicts. Investigation is required."
+msgstr ""
+"Eliminazione rifiutata perché le evidenze sull’identità sono in conflitto. È necessaria una "
+"verifica."
+
+#: assets/js/order-deletion.js:23
+msgid "Deletion was rejected because stored state is inconsistent. Investigation is required."
+msgstr "Eliminazione rifiutata perché lo stato salvato è incoerente. È necessaria una verifica."
+
+#: assets/js/order-deletion.js:24
+msgid "Deletion was rejected: invalid Order reference."
+msgstr "Eliminazione rifiutata: il riferimento dell’ordine non è valido."
+
+#: assets/js/order-deletion.js:25
+msgid "Deletion was rejected: a valid confirmation and exact commerce context are required."
+msgstr "Eliminazione rifiutata: servono una conferma valida e il contesto del commercio esatto."
+
+#: assets/js/order-deletion.js:26
+msgid "Deletion was rejected: the exact confirmation is required."
+msgstr "Eliminazione rifiutata: è richiesta la conferma esatta."
+
+#: assets/js/order-deletion.js:27
+msgid "Deletion was rejected: the displayed commerce context is no longer current. Inspect the Order again."
+msgstr ""
+"Eliminazione rifiutata: il contesto del commercio visualizzato non è più attuale. Consulta di "
+"nuovo l’ordine."
+
+#: assets/js/order-deletion.js:28
+msgid "Deletion was not confirmed because of a database failure. Inspect the Order before further action."
+msgstr ""
+"Un errore del database ha impedito di confermare l’eliminazione. Consulta l’ordine prima di "
+"procedere."
+
+#: assets/js/order-deletion.js:29
+msgid "Deletion was rejected: administrator permission is required."
+msgstr "Eliminazione rifiutata: sono necessari i permessi di amministratore."
+
+#: assets/js/order-deletion.js:30
+msgid "Deletion was rejected: sign in again before inspecting the Order."
+msgstr "Eliminazione rifiutata: accedi di nuovo prima di consultare l’ordine."
+
+#: assets/js/order-deletion.js:31
+msgid "Deletion was rejected: the security nonce is invalid or expired. Reload for read-only inspection."
+msgstr ""
+"Eliminazione rifiutata: il nonce di sicurezza non è valido o è scaduto. Ricarica la pagina per la"
+" consultazione in sola lettura."
+
+#: assets/js/order-deletion.js:33
+msgid "The deletion outcome remains unverified. Use read-only inspection. Order absence does not prove deletion. Do not repeat this DELETE."
+msgstr ""
+"L’esito dell’eliminazione resta non verificato. Consulta l’ordine in sola lettura. L’assenza "
+"dell’ordine non dimostra l’eliminazione. Non ripetere la richiesta DELETE."
+
+#: assets/js/order-deletion.js:56
+msgid "This browser previously received a confirmed deletion response. This read-only view does not independently verify that receipt."
+msgstr ""
+"Questo browser ha già ricevuto una risposta di eliminazione confermata. Questa vista in sola "
+"lettura non verifica in modo indipendente la risposta ricevuta."
+
+#: assets/js/order-deletion.js:61
+msgid "Deletion is unavailable because browser recovery state cannot be read. Use read-only inspection."
+msgstr ""
+"L’eliminazione non è disponibile perché non è possibile leggere i dati di ripresa del browser. "
+"Consulta l’ordine in sola lettura."
+
+#: assets/js/order-deletion.js:92
+msgid "Deletion was not sent because recovery state could not be saved."
+msgstr ""
+"La richiesta di eliminazione non è stata inviata perché non è stato possibile salvare i dati di "
+"ripresa."
+
+#: assets/js/order-deletion.js:97
+msgid "Deletion request in progress. Leaving this page will require read-only inspection."
+msgstr ""
+"Richiesta di eliminazione in corso. Se lasci questa pagina, dovrai consultare l’ordine in sola "
+"lettura."
+
+#: assets/js/post-checkout.js:8
+msgid "Checking your order status…"
+msgstr "Verifica dello stato dell’ordine…"
+
+#: assets/js/post-checkout.js:10
+msgid "Your payment is confirmed."
+msgstr "Il tuo pagamento è confermato."
+
+#: assets/js/post-checkout.js:11
+msgid "Payment not yet confirmed"
+msgstr "Pagamento non ancora confermato"
+
+#: assets/js/post-checkout.js:12
+msgid "Payment confirmation is not yet available. You can check the status again."
+msgstr "La conferma del pagamento non è ancora disponibile. Puoi controllare di nuovo lo stato."
+
+#: assets/js/post-checkout.js:13
+msgid "Payment status needs review"
+msgstr "Stato del pagamento da verificare"
+
+#: assets/js/post-checkout.js:14
+msgid "We cannot confirm the payment status for this order. It may need further checking."
+msgstr ""
+"Non possiamo confermare lo stato del pagamento per questo ordine. Potrebbe essere necessaria "
+"un’ulteriore verifica."
+
+#: assets/js/post-checkout.js:15
+msgid "Payment not confirmed"
+msgstr "Pagamento non confermato"
+
+#: assets/js/post-checkout.js:16
+msgid "We do not have payment confirmation for this order. This does not necessarily mean you have not been charged."
+msgstr ""
+"Non abbiamo ricevuto conferma del pagamento per questo ordine. È comunque possibile che l’importo"
+" sia stato addebitato."
+
+#: assets/js/post-checkout.js:18
+msgid "Your cart has been updated. Items may still remain in it."
+msgstr "Il tuo carrello è stato aggiornato. Potrebbe ancora contenere articoli."
+
+#: assets/js/post-checkout.js:19
+msgid "Your payment is confirmed. The cart update has not yet been confirmed."
+msgstr "Il pagamento è confermato. L’aggiornamento del carrello non è ancora confermato."
+
+#: assets/js/post-checkout.js:20
+msgid "Your payment is confirmed. We cannot confirm how the cart was updated for this order."
+msgstr ""
+"Il pagamento è confermato. Non possiamo verificare come sia stato aggiornato il carrello per "
+"questo ordine."
+
+#: assets/js/post-checkout.js:21
+msgid "Your payment is confirmed. The cart update needs attention."
+msgstr "Il pagamento è confermato. L’aggiornamento del carrello richiede una verifica."
+
+#: assets/js/post-checkout.js:23
+msgid "Try again"
+msgstr "Riprova"
+
+#: assets/js/post-checkout.js:24
+msgid "Order details unavailable"
+msgstr "Dettagli dell’ordine non disponibili"
+
+#: assets/js/post-checkout.js:25
+msgid "Order details are not available through this link."
+msgstr "I dettagli dell’ordine non sono disponibili tramite questo link."
+
+#: assets/js/post-checkout.js:26
+msgid "Order details cannot be displayed from this browser or link."
+msgstr "I dettagli dell’ordine non possono essere visualizzati da questo browser o tramite questo link."
+
+#: assets/js/post-checkout.js:30
+msgid "Order date"
+msgstr "Data dell’ordine"
+
+#: assets/js/post-checkout.js:31
+msgid "Payment date"
+msgstr "Data del pagamento"
+
+#: assets/js/post-checkout.js:34
+msgid "Item total"
+msgstr "Totale articolo"
+
+#: assets/js/stock-quick-edit.js:5
+msgid "Stock is unavailable. Reload the page or request technical review."
+msgstr "La giacenza non è disponibile. Ricarica la pagina o richiedi una verifica tecnica."

@@ -1,0 +1,75 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Files
+codex.patch
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+vendor/
+tools/vendor/
+
+# Build
+dist/
+build/
+
+# Archives
+*.zip
+
+# Temporary
+*.tmp
+
+# Local deployment credentials
+/.deploy-stage.env
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local.env
+.auth.json
+auth.json
+credentials.local.json
+secrets.local.json
+*.key
+*.pem
+*.p12
+
+# Python caches
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Database dumps and local backups
+*.sql
+*.sql.gz
+*.sql.bz2
+*.sql.xz
+*.sql.zst
+*.dump
+*.sqlite
+*.sqlite3
+*.bak
+/backups/
+
+# Local WordPress configuration
+wp-config.php
+wp-config-local.php
+wp-config.local.php
+.wp-env.override.json
+
+# Temporary local files
+/tmp/
+*.swp
+*.swo
+*.orig
+*~

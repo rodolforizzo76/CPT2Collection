@@ -1,0 +1,8 @@
+{
+    "name": "rodolforizzo/cpt2collection-build-tools",
+    "description": "Development-only release tooling for CPT2Collection.",
+    "license": "GPL-2.0-or-later",
+    "require-dev": {
+        "humbug/php-scoper": "^0.18.17"
+    }
+}

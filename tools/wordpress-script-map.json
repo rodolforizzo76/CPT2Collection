@@ -1,0 +1,8 @@
+{
+    "assets/js/admin-stock.js": "assets/js/admin-stock.js",
+    "assets/js/cart-frontend.js": "assets/js/cart-frontend.js",
+    "assets/js/commerce-reset-admin.js": "assets/js/commerce-reset-admin.min.js",
+    "assets/js/order-deletion.js": "assets/js/order-deletion.js",
+    "assets/js/post-checkout.js": "assets/js/post-checkout.js",
+    "assets/js/stock-quick-edit.js": "assets/js/stock-quick-edit.js"
+}

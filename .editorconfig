@@ -1,0 +1,9 @@
+root = true
+
+[{cpt2collection.php,uninstall.php,scoper.inc.php,.php-cs-fixer.dist.php,includes/**/*.php,tests/**/*.php,cpt2collection-7b-harness/**/*.php,tests/**/*.js,tests/*.sh,tools/*.sh,assets/css/order-detail.css}]
+indent_style = tab
+indent_size = 4
+
+[{composer.json,tools/composer.json,tools/wordpress-script-map.json}]
+indent_style = space
+indent_size = 4

@@ -1,0 +1,13 @@
+{
+	"useTabs": true,
+	"tabWidth": 4,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 110,
+	"overrides": [
+		{
+			"files": ["**/composer.json", "tools/wordpress-script-map.json"],
+			"options": { "useTabs": false, "tabWidth": 4 }
+		}
+	]
+}
