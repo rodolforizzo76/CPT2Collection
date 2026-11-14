@@ -1,58 +1,75 @@
 # CPT2Collection
 
-CPT2Collection adds a commercial catalog, guest cart, stock reservations,
-Orders, and Stripe hosted Checkout to one existing WordPress custom post type.
-The plugin uses your existing posts as products. It provides price, rating,
-commercial status, stock and minimum-order settings, cart shortcodes, an
-administrator Orders screen, and email notifications for confirmed payments.
+Turn your existing WordPress catalog into a shop. CPT2Collection adds e-commerce
+to one WordPress Custom Post Type, so you can sell from the posts you already
+manage without rebuilding your catalog.
+
+## Features
+
+- **Catalog** — Set prices, ratings, sales status, stock quantities, and
+  minimum-order rules for existing posts.
+- **Guest cart** — Let visitors add items and change quantities before checkout.
+- **Inventory** — Reserve stock during checkout and deduct it after payment
+  confirmation. Update quantities in the post editor or through Stock Quick Edit.
+- **Stripe Checkout** — Send customers to Stripe's hosted payment page.
+- **Orders** — Review order items, payment status, and available customer details
+  in WordPress. Send payment confirmation emails to customers and administrators.
+- **Languages** — Use the English interface or the included Italian translations.
+
+## How it works
+
+1. **Your posts become products.** Choose the Custom Post Type you already use
+   for your catalog and give the items you want to sell a price and stock quantity.
+2. **Visitors shop on your site.** Add cart controls to your catalog pages so
+   visitors can choose items and review their cart.
+3. **Customers pay through Stripe.** CPT2Collection reserves the items for a
+   limited time and sends customers to Stripe Checkout.
+4. **You manage Orders in WordPress.** Once payment is confirmed, check the
+   Order and its items in the dashboard and handle fulfilment separately.
 
 ## Requirements and installation
 
-- WordPress 6.4 or later and PHP 8.2 or later with curl, JSON and mbstring.
-- HTTPS, a MySQL or MariaDB database with InnoDB tables, and PHP access to Stripe.
-- A registered custom post type and a Stripe account for checkout.
-- Working WordPress cron and mail transport for notifications.
+The plugin declares WordPress 6.4 and PHP 8.2 as its minimum versions. Checkout
+requires HTTPS, a MySQL or MariaDB database using InnoDB, a Stripe account, and
+the PHP curl, JSON, and mbstring extensions. Email notifications require working
+WordPress cron and mail delivery.
 
-Download the attached **cpt2collection.zip** from the GitHub release. In
-WordPress, open **Plugins → Add New → Upload Plugin**, upload the ZIP, then
-activate it. Keep the plugin directory named `cpt2collection`. GitHub's
-automatic **Source code** archives contain the build inputs. The attached ZIP
-contains the scoped Stripe SDK and generated loader needed at runtime.
+Download the attached **`cpt2collection.zip`** from
+[GitHub Releases](https://github.com/rodolforizzo76/CPT2Collection/releases).
+In WordPress, open **Plugins → Add New → Upload Plugin**, upload the ZIP, and
+activate it. The attached ZIP includes the runtime dependencies. GitHub's
+automatic **Source code** archives require a build before installation.
 
-For an upgrade, back up the database first. A populated installation that
-predates the modern commerce baseline needs a separately planned baseline
-operation. See [installation and upgrades](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/docs/installation.md).
+For an existing plugin installation, see the [upgrade guide](docs/installation.md).
 
-## Set up commerce
+## Getting started
 
-Select the managed post type and cart page in the plugin settings. Configure
-currency, the optional minimum order, and the reservation duration. Start Stripe
-in test mode, configure the API secret and webhook signing secret, and set the
-success and cancel pages. Follow the [configuration guide](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/docs/configuration.md)
-for the shortcodes, webhook events, and checkout verification.
+1. Open **CPT2Collection → Settings** and select your catalog post type.
+2. Set prices and stock for a few items, then add the cart and checkout pages.
+3. Connect Stripe in test mode and place a test order. Check the payment, Order
+   status, stock change, and email before switching to live mode.
 
-Physical stock includes units held by active reservations. Confirmed sales
-consume those units. The stock editor and Stock Quick Edit check for conflicting
-edits and active reservations. See [catalog and stock](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/docs/catalog-and-stock.md)
-and [Orders and notifications](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/docs/orders.md).
+The [configuration guide](docs/configuration.md) walks through the pages,
+shortcodes, and Stripe setup.
 
-English strings and Italian translations are included, including frontend
-JavaScript strings. See [localization](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/docs/localization.md) to regenerate the
-catalogs or contribute a translation.
+## Documentation
 
-**Full Commerce Reset permanently deletes local commerce data.** Verify a
-database backup and schedule a maintenance window before using it. The reset
-preserves physical stock and retained payment replay evidence. Normal commerce
-stays fenced until the reset completes. Consult the
-[maintenance guide](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/docs/commerce-reset.md) before starting.
+- [Catalog, cart, and stock](docs/catalog-and-stock.md)
+- [Orders and notifications](docs/orders.md)
+- [Localization](docs/localization.md)
+- [Architecture](docs/architecture.md) and [build and test](docs/development.md)
 
-## Build and contribute
+**Full Commerce Reset permanently deletes local commerce records.** Use it only
+for exceptional maintenance and verify a database backup before starting. See
+the [Full Commerce Reset guide](docs/commerce-reset.md).
 
-See the [architecture](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/docs/architecture.md) for the lifecycle of a cart,
-reservation, payment, and Order. The [development guide](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/docs/development.md)
-covers the locked Composer toolchain, release packaging, and test fixtures.
-See the [changelog](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/CHANGELOG.md), [contribution guide](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/CONTRIBUTING.md), and
-[private security reporting instructions](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/SECURITY.md).
+If you're reading this from the installed ZIP, open the
+[CPT2Collection repository](https://github.com/rodolforizzo76/CPT2Collection)
+for the full guides.
 
-CPT2Collection is licensed under [GPL-2.0-or-later](LICENSE).
-See [third-party notices](https://github.com/rodolforizzo76/CPT2Collection/blob/v1.0.0/THIRD_PARTY_NOTICES.md) for bundled dependencies.
+## Contributing and license
+
+CPT2Collection is by Rodolfo Rizzo and is licensed under
+[GPL-2.0-or-later](LICENSE). See the [changelog](CHANGELOG.md),
+[contribution guide](CONTRIBUTING.md), and [third-party notices](THIRD_PARTY_NOTICES.md).
+Report vulnerabilities through the [private reporting process](SECURITY.md).
