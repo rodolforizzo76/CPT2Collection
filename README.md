@@ -1,6 +1,6 @@
 # CPT2Collection
 
-Turn your existing WordPress catalog into a shop. CPT2Collection adds e-commerce
+Turn your WordPress Custom Post Type into a shop. CPT2Collection adds e-commerce
 to one WordPress Custom Post Type, so you can sell from the posts you already
 manage without rebuilding your catalog.
 
