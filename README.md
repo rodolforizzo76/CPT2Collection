@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="docs/images/cpt2collection-logo.png"
+       alt="CPT2Collection"
+       width="600">
+</p>
+
 # CPT2Collection
 
 Turn your WordPress Custom Post Type into a shop. CPT2Collection adds e-commerce
