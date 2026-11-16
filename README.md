@@ -1,7 +1,7 @@
 <p align="center">
   <img src="docs/images/cpt2collection-logo.png"
        alt="CPT2Collection"
-       width="600">
+       width="100%">
 </p>
 
 # CPT2Collection
