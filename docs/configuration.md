@@ -572,11 +572,11 @@ Check the inboxes and spam folders of both recipients.
 
 *Customer email — Payment confirmed*
 
-![Customer payment confirmation showing the order reference, purchased items, quantities, and paid total](images/order-notification-user-1.0.1.webp)
+<img src="images/order-notification-user-1.0.1.webp" alt="Customer payment confirmation showing the order reference, purchased items, quantities, and paid total" width="600">
 
 *Administrator email — New paid order*
 
-![Administrator notification showing the order reference, purchased items, quantities, paid total, and a View order in WordPress button](images/order-notification-admin-1.0.1.webp)
+<img src="images/order-notification-admin-1.0.1.webp" alt="Administrator notification showing the order reference, purchased items, quantities, paid total, and a View order in WordPress button" width="600">
 
 **Important:** An order can be marked **Paid** even if an email is delayed or fails.
 
