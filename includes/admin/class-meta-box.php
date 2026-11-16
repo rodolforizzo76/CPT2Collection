@@ -37,7 +37,17 @@ final class MetaBox {
 		add_action( 'save_post', array( $this, 'save' ), 10, 3 );
 		add_filter( 'redirect_post_location', array( $this, 'redirect_location' ), 10, 2 );
 		add_action( 'admin_notices', array( $this, 'display_stock_error' ) );
+		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_styles' ) );
 		add_action( 'enqueue_block_editor_assets', array( $this, 'enqueue_block_editor' ) );
+	}
+
+	public function enqueue_styles(): void {
+		$screen = get_current_screen();
+		if ( ! $screen || 'post' !== $screen->base || $screen->post_type !== $this->post_types->get_selected_post_type() ) {
+			return;
+		}
+
+		wp_enqueue_style( 'cpt2collection-meta-box', CPT2COLLECTION_URL . 'assets/css/meta-box.css', array(), CPT2COLLECTION_VERSION );
 	}
 
 	public function enqueue_block_editor(): void {

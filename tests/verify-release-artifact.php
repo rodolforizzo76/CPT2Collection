@@ -59,8 +59,8 @@ foreach ( array( 'AGENTS.md', 'docs', 'tools', 'node_modules', '.deploy-stage.en
 	artifact_check( ! file_exists( $artifact . '/' . $excluded ), 'development-only file packaged: ' . $excluded );
 }
 $metadata = file_get_contents( $artifact . '/cpt2collection.php' );
-artifact_check( false !== $metadata && str_contains( $metadata, "CPT2COLLECTION_VERSION', '1.0.0'" ), 'release asset version mismatch' );
-foreach ( array( 'Version: 1.0.0', 'Requires at least: 6.4', 'Requires PHP: 8.2', 'Text Domain: cpt2collection', 'Domain Path: /languages' ) as $header ) {
+artifact_check( false !== $metadata && str_contains( $metadata, "CPT2COLLECTION_VERSION', '1.0.1'" ), 'release asset version mismatch' );
+foreach ( array( 'Version: 1.0.1', 'Requires at least: 6.4', 'Requires PHP: 8.2', 'Text Domain: cpt2collection', 'Domain Path: /languages' ) as $header ) {
 	artifact_check( str_contains( $metadata, " * {$header}\n" ), 'release header mismatch: ' . $header );
 }
 

@@ -3,7 +3,7 @@
  * Plugin Name: CPT2Collection
  * Plugin URI: https://github.com/rodolforizzo76/CPT2Collection
  * Description: Adds collection-management and commercial metadata to one administrator-selected custom post type.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.4
  * Requires PHP: 8.2
  * Author: Rodolfo Rizzo
@@ -19,7 +19,7 @@ declare( strict_types=1 );
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'CPT2COLLECTION_VERSION', '1.0.0' );
+define( 'CPT2COLLECTION_VERSION', '1.0.1' );
 define( 'CPT2COLLECTION_FILE', __FILE__ );
 define( 'CPT2COLLECTION_PATH', plugin_dir_path( __FILE__ ) );
 define( 'CPT2COLLECTION_URL', plugin_dir_url( __FILE__ ) );

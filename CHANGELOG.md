@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Fixed select field overflow in the CPT2Collection Gutenberg sidebar, preventing unwanted horizontal scrolling.
+
 ## 1.0.0
 
 - First public source snapshot of the stable commerce implementation.

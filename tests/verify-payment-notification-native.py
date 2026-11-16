@@ -103,8 +103,8 @@ with tempfile.TemporaryDirectory(prefix='c2c-notify-native-', dir='/tmp') as dir
     server = None
     try:
         installed = cli('install')
-        check(installed['schema'] == '0.21.0' and installed['plugin'] == '1.0.0',
-              f"native WordPress {installed['wordpress']} fresh install reaches 0.21.0 at plugin version 1.0.0")
+        check(installed['schema'] == '0.21.0' and installed['plugin'] == '1.0.1',
+              f"native WordPress {installed['wordpress']} fresh install reaches 0.21.0 at plugin version 1.0.1")
         sweep = cli('schedule')
         check(len(sweep) == 1 and sweep[0][0].endswith('_sweep') and sweep[0][2:] == ['hourly', []],
               'one native recurring fallback has empty arguments')
