@@ -94,6 +94,8 @@ you may need to investigate.
    if offered. Pausing leaves commerce unavailable and keeps any deletions
    that have already been committed.
 
+![Full Commerce Reset screen with a permanent deletion warning, Reset ready status, an empty confirmation field, and a disabled Start reset button](images/admin-full-commerce-reset-1.0.1.webp)
+
 If the screen says a ready commerce context could not be verified, use
 **Advanced details** to look up the existing operation if you have its
 identity. If you cannot verify the current state, ask your site maintainer

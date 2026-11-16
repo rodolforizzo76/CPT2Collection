@@ -25,6 +25,8 @@ To begin:
 
 Open **CPT2Collection → Settings** and find the **Collection settings** section.
 
+![WordPress CPT2Collection Settings showing the managed post type, currency, minimum order quantity, cart page, and reservation duration fields](images/admin-settings-1.0.1.webp)
+
 ### Choose your Custom Post Type
 
 Under **Managed post type**, select the Custom Post Type you want to use as your product catalog.
@@ -252,6 +254,8 @@ Before accepting real payments, you should configure and test the integration us
 Test mode allows you to simulate payments without charging real credit cards.
 
 **Important:** Test payments still create orders, reserve products, update stock, and may send emails on your WordPress website.
+
+![Stripe Checkout settings in WordPress with Environment set to Test and the credential and return URL fields blank](images/stripe-admin-settings-1.0.1.webp)
 
 ### Step 2: Get your Stripe test API key
 
@@ -628,6 +632,8 @@ If everything looks right, continue to checkout.
 4. Enter an email address you can access.
 5. Complete Checkout and return to your website.
 
+![Stripe Sandbox checkout showing the two cart items, the order total, and the payment form](images/stripe-checkout-1.0.1.webp)
+
 For a standard successful card payment, Stripe provides this test card number:
 
 `4242 4242 4242 4242`
@@ -647,6 +653,8 @@ The page should display the payment result and, once confirmed, an order summary
 If payment confirmation is still pending, give Stripe's webhook time to reach your website. Use **Check status** if the page offers that option.
 
 **Important:** Returning to the success page alone does not mean the payment has been confirmed.
+
+![WordPress success page showing Payment confirmed, the order reference, an itemized order summary, and the cart update result](images/payment-confirmation-1.0.1.webp)
 
 ### Step 5: Verify the order and stock
 

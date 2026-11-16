@@ -27,6 +27,8 @@ request permanent deletion.
 4. Click an **Order reference** to open the details. Use **Back to Orders**
    to return to the list.
 
+![WordPress Orders list showing filters for reference, status, creation dates, and payment review above two paid orders](images/admin-orders-1.0.1.webp)
+
 **Order summary** shows the saved status, dates, currency, subtotal, and
 total. **Order items** shows the saved item names, quantities, unit prices,
 and line totals. Later changes to product names or prices do not rewrite
@@ -36,6 +38,8 @@ the order.
 recorded, when those details were available and could be saved. Missing
 details display as **Not available**. Keep customer information private
 when sharing order or payment diagnostics.
+
+![Paid order detail showing the order summary, purchased items, customer panel with the email masked, and collapsed Technical Payment Details](images/admin-order-detail-1.0.1.webp)
 
 ## Understanding order statuses
 

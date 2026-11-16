@@ -17,6 +17,8 @@ Open an item in your managed post type and find the **CPT2Collection** panel
 in the WordPress editor. Set the fields below and save the post. Publish the
 item when you want visitors to see it.
 
+![WordPress editor with an arrow pointing to the CPT2Collection sidebar panel containing price, commercial status, stock, minimum order exemption, and rating controls](images/cpt2collection-field-1.0.1.webp)
+
 | Field | What to enter |
 | --- | --- |
 | **Price** | Enter a positive amount to sell the item. The field starts blank when no price is set. |
@@ -84,6 +86,8 @@ Adding an item to the cart does not reserve it. At checkout, CPT2Collection
 checks current prices, commercial statuses, quantities, and the minimum order
 quantity. It then checks whether enough stock can be reserved. Another shopper
 may have reserved or bought the last units while the item was in the cart.
+
+![Guest cart with two items, quantity update and remove controls, a checkout eligibility message, and the order total](images/cart-1.0.1.webp)
 
 ## Understanding stock
 
@@ -154,6 +158,8 @@ In Quick Edit, **Stock** is the only CPT2Collection field you can change. Use
 the product editor for **Price**, **Commercial status**, **Rating**, and the
 minimum order exemption. Both stock editors reject a quantity below the
 number of units currently held for checkout.
+
+![WordPress catalog list showing the Quick Edit link under an item and the Stock column for checking saved quantities](images/admin-page-cpt-collection-list-1.0.1.webp)
 
 ## Conflicts and limitations
 
