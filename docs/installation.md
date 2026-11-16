@@ -91,11 +91,14 @@ Stripe settings, and the checks to make before going live.
    payment traffic and use test credentials and a separate test webhook
    for checkout checks. Review mail delivery before testing on a copy with
    customer data.
-4. Schedule a maintenance window for the live site. Arrange a maintenance 
-   window and prevent customers from starting new checkouts using your 
-   site's maintenance procedures. Review any payments already in progress 
-   and confirm their outcomes before updating. Let them finish or expire 
-   and check their outcomes before replacing the files.
+4. Schedule the update carefully. WordPress automatically enables maintenance 
+   mode while replacing plugin files, temporarily blocking new site requests. 
+   However, customers may still have active Stripe Checkout Sessions, and 
+   requests already in progress may continue. Before updating a site with live 
+   payments, review outstanding checkouts and confirm their outcomes. 
+   For updates involving database migrations or payment processing changes, 
+   arrange a maintenance window and prevent new checkouts before starting 
+   the update.
 
 ### Replace the installed ZIP
 
