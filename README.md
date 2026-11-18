@@ -6,9 +6,55 @@
 
 # CPT2Collection
 
-Turn your WordPress Custom Post Type into a shop. CPT2Collection adds e-commerce
-to one WordPress Custom Post Type, so you can sell from the posts you already
-manage without rebuilding your catalog.
+Turn your WordPress Custom Post Type into a shop.
+
+CPT2Collection is a free WordPress plugin that adds e-commerce 
+functionality to a Custom Post Type (CPT), allowing you to build 
+a shop around your own content structure.
+
+Whether you're creating a new online store from scratch or adding 
+shopping functionality to an existing website, CPT2Collection gives 
+you the tools to manage products, prices, inventory, shopping carts, 
+Stripe payments, and orders directly within WordPress.
+
+Starting a new project? Create a Custom Post Type for your products, 
+design your catalog using your preferred WordPress tools, and let 
+CPT2Collection handle the commerce functionality.
+
+Already have a Custom Post Type? Turn your existing posts into 
+purchasable products without duplicating content or rebuilding your 
+catalog.
+
+CPT2Collection does not create Custom Post Types. You define and 
+register them yourself, either through custom code or a dedicated 
+WordPress plugin.
+
+## Who is it for?
+
+CPT2Collection is designed for WordPress developers, site builders, 
+and independent creators who want to add commerce to a custom 
+content structure.
+
+Typical use cases include:
+
+Art galleries and artists — Build a shop for artworks, prints, 
+illustrations, or photography.
+
+Collectors and enthusiasts — Create a catalog of vintage items, 
+memorabilia, or collectibles and offer them for sale.
+
+Small independent sellers — Sell handmade products, limited editions, 
+or small collections.
+
+WordPress developers and site builders — Build custom storefronts 
+using their preferred themes, page builders, and Custom Post Types, 
+without adopting a separate product content model.
+
+CPT2Collection focuses on straightforward commerce for a single Custom 
+Post Type, while leaving you in control of your website's design and 
+content structure.
+
+**Your content. Your design. Your shop**.
 
 ## Features
 
